@@ -1,0 +1,157 @@
+{
+  "concept_id": "C15",
+  "authorization": "User authorized direct generation without a credit cap; C15 execution explicitly requested.",
+  "tasks": [
+    {
+      "task_id": "c30d811b-06f1-48bf-8157-523f3cbce4b9",
+      "type": "text_to_model",
+      "model_alias": "tripo-v3.1",
+      "model_wire": "v3.1-20260211",
+      "geometry_quality": "detailed",
+      "texture_quality": "detailed",
+      "status": "success",
+      "credits_consumed": 50,
+      "prompt": "A photorealistic architectural model of a mature orbital space colony neighborhood on a rectangular platform, diverse elegant mid-rise terraced residential buildings with balconies, one curved glass civic atrium, a segmented glass greenhouse, rooftop solar equipment and mechanical utility annex, pedestrian courtyards with mature trees and gardens, white ceramic concrete brushed aluminum and dark blue glazing, believable contemporary engineering and detailed facade windows, clean inhabited sustainable city, highly detailed PBR surfaces, no text no labels no futuristic neon, standalone modular block with flat base",
+      "source_model": "assets/source/tripo/C15/tripo-out/c15-ecology-district-c30d811b/model.glb",
+      "source_bytes": 68246604,
+      "preview": "assets/source/tripo/C15/tripo-out/c15-ecology-district-c30d811b/preview.png",
+      "review": "Preview inspected: varied curved-balcony residential buildings, glazed facades, courtyards, trees and roads. Suitable mature inhabited neighborhood. Requested greenhouse was not separately resolved; it is not treated as a functional life-support model.",
+      "processing": "Blender centered-bottom Y-up normalization; source preserved; actual 159999/20000/3500 triangle LODs. Native 4096 PBR retained for LOD0; downsampled to 2048/1024 for LOD1/2; no upscaling.",
+      "source_sha256": "33e7186ce016dfa78197a325f616d8e28176a29a86fd8f4650db4cef31af03b7",
+      "source_texture_native": {
+        "baseColor": [
+          4096,
+          4096
+        ],
+        "normal": [
+          4096,
+          4096
+        ],
+        "metallicRoughness": [
+          4096,
+          4096
+        ]
+      },
+      "runtime_lods": [
+        {
+          "file": "district_lod0.glb",
+          "triangles": 159999,
+          "bytes": 19029788,
+          "textureLimit": 4096
+        },
+        {
+          "file": "district_lod1.glb",
+          "triangles": 20000,
+          "bytes": 14461544,
+          "textureLimit": 2048
+        },
+        {
+          "file": "district_lod2.glb",
+          "triangles": 3500,
+          "bytes": 4291640,
+          "textureLimit": 1024
+        }
+      ]
+    },
+    {
+      "task_id": "9f6f6a37-849c-4110-85aa-6ae4373c326e",
+      "type": "text_to_model",
+      "model_alias": "tripo-v3.1",
+      "model_wire": "v3.1-20260211",
+      "geometry_quality": "detailed",
+      "texture_quality": "detailed",
+      "status": "success",
+      "credits_consumed": 50,
+      "prompt": "Photorealistic compact industrial closed-loop water recycling and air processing service skid for an inhabited orbital habitat, three horizontal stainless steel cylindrical pressure tanks with rounded endcaps, distinct centrifugal pumps, blue and silver pipe manifolds connecting vessels, filtration cartridges, heat exchanger radiator, grated maintenance platform with safety railings and access steps, valve wheels and maintenance hatches, coherent engineered machinery with clear separate readable parts, metallic brushed steel white ceramic insulated ducts restrained orange service markings, detailed PBR weathering, no plants no buildings no greenhouse no text, standalone rectangular equipment platform flat base",
+      "source_model": "assets/source/tripo/C15/tripo-out/c15-life-support-9f6f6a37/model.glb",
+      "source_bytes": 65004372,
+      "preview": "assets/source/tripo/C15/tripo-out/c15-life-support-9f6f6a37/preview.png",
+      "review": "Preview inspected: separate horizontal pressure vessels, pumps and filters, service platform, valves, heat exchanger, white and blue circulation pipes. Accepted as readable industrial environmental machinery. Function is a conceptual illustration, not a validated closed-loop system.",
+      "processing": "Blender centered-bottom Y-up normalization; source preserved; actual 80000/8000/2000 triangle LODs. Native 4096 PBR downsampled to 2048/1024/512 runtime limits; no upscaling.",
+      "source_sha256": "97c14eb9a7ad1f3f9099ae384f29be7228dc748477b00b49b606cccddeafa066",
+      "source_texture_native": {
+        "baseColor": [
+          4096,
+          4096
+        ],
+        "normal": [
+          4096,
+          4096
+        ],
+        "metallicRoughness": [
+          4096,
+          4096
+        ]
+      },
+      "runtime_lods": [
+        {
+          "file": "life_support_lod0.glb",
+          "triangles": 80000,
+          "bytes": 16550044,
+          "textureLimit": 2048
+        },
+        {
+          "file": "life_support_lod1.glb",
+          "triangles": 8000,
+          "bytes": 4326616,
+          "textureLimit": 1024
+        },
+        {
+          "file": "life_support_lod2.glb",
+          "triangles": 2000,
+          "bytes": 1298548,
+          "textureLimit": 512
+        }
+      ]
+    }
+  ],
+  "total_credits_consumed": 100,
+  "balance_before": 13800,
+  "balance_after": 13700,
+  "scientific_boundary": "Conceptual engineering art. No physical dimensions, structural certification or ecological closure claimed.",
+  "blender_production": {
+    "script": "scripts/blender_c15.py",
+    "macro_mesh": {
+      "file": "habitat.glb",
+      "triangles": 170594,
+      "bytes": 7705444,
+      "nodes": [
+        "shell_land_0",
+        "shell_window_0",
+        "ecology_ground",
+        "ecology_bank",
+        "ecology_water",
+        "ecology_road",
+        "ecology_agriculture",
+        "ecology_trunk",
+        "ecology_forest",
+        "shell_frames",
+        "mirror",
+        "radiator",
+        "shell_land_1",
+        "shell_window_1",
+        "shell_land_2",
+        "shell_window_2",
+        "endcap_-120",
+        "docking_-120",
+        "endcap_spokes",
+        "endcap_rim",
+        "docking_service",
+        "endcap_ring",
+        "endcap_outer_ring",
+        "endcap_120",
+        "docking_120",
+        "shell_rings",
+        "life_support"
+      ]
+    },
+    "qa": {
+      "missingUV": [],
+      "nonFiniteVertices": 0
+    },
+    "asset_check": "node scripts/asset_check.mjs --scene=C15 passed",
+    "review_script": "assets/source/blender/C15/review_assets.py",
+    "review_status": "Actual exported LOD0 mesh/PBR renders inspected: city balconies, glazing, courtyard and rooftop equipment readable; plant vessels, white pipes, filters, valves and service railings readable. Plant metallic reflection strong under studio illumination; scene lighting/material normalization reviewed independently. No claim of validated life-support closure.",
+    "geometry_note": "Precise panel joints, articulated faceted mirrors, endcap ring/spokes and service deck, meandering river bank/road, dual-lobed broadleaf forest canopy. No new Tripo task."
+  }
+}

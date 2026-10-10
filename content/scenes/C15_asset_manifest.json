@@ -1,0 +1,1402 @@
+{
+  "schema_version": "0.8",
+  "concept_id": "C15",
+  "implementation_status": "approved_A_rebuild_in_progress",
+  "source_pipeline": [
+    "Tripo",
+    "Blender",
+    "glTF/GLB",
+    "Three.js/R3F"
+  ],
+  "units": {
+    "physical_units": "not_fixed_for_concept_asset",
+    "render_units": "radius40 length240",
+    "note": "Conceptual ONeill cylinder engineering illustration; radius40 length240 are rendering units, not measured or validated physical dimensions.",
+    "render_unit_meters": 100
+  },
+  "source_assets": [
+    {
+      "asset_id": "habitat_blender_master",
+      "file": "assets/source/blender/C15/habitat_master.blend",
+      "role": "editable precise shell and ecology",
+      "status": "ready"
+    },
+    {
+      "asset_id": "district_tripo_original",
+      "file": "assets/source/tripo/C15/tripo-out/c15-ecology-district-c30d811b/model.glb",
+      "role": "untouched textured detailed generation",
+      "status": "ready"
+    },
+    {
+      "asset_id": "district_blender_master",
+      "file": "assets/source/blender/C15/district_master.blend",
+      "role": "normalized city source with PBR and LOD production",
+      "status": "ready"
+    },
+    {
+      "asset_id": "life_support_tripo_original",
+      "file": "assets/source/tripo/C15/tripo-out/c15-life-support-9f6f6a37/model.glb",
+      "role": "untouched industrial plant source",
+      "status": "ready"
+    },
+    {
+      "asset_id": "life_support_blender_master",
+      "file": "assets/source/blender/C15/life_support_master.blend",
+      "role": "normalized environmental plant and PBR LOD production",
+      "status": "ready"
+    },
+    {
+      "asset_id": "tree_tripo_original",
+      "file": "assets/source/tripo/C15/tripo-out/c15-broadleaf-tree-3372ce92/model.glb",
+      "role": "untouched textured mature broadleaf tree",
+      "status": "ready"
+    },
+    {
+      "asset_id": "tree_blender_master",
+      "file": "assets/source/blender/C15/tree_master.blend",
+      "role": "normalized bottom-origin tree, retained PBR and local LODs",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_pavilion_tripo_original",
+      "file": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-pavilion-6e3d77fb/model.glb",
+      "role": "formal riverfront architecture source",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_pavilion_blender_master",
+      "file": "assets/source/blender/C15/riverfront/riverfront_pavilion_master.blend",
+      "role": "editable normalized architectural master",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_tower_tripo_original",
+      "file": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-tower-54ca8435/model.glb",
+      "role": "formal riverfront architecture source",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_tower_blender_master",
+      "file": "assets/source/blender/C15/riverfront/riverfront_tower_master.blend",
+      "role": "editable normalized architectural master",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_environment_master",
+      "file": "assets/source/blender/C15/riverfront_environment/riverfront_master.blend",
+      "role": "continuous terrain and human-scale shore",
+      "status": "ready"
+    },
+    {
+      "asset_id": "district_distant_master",
+      "file": "assets/source/blender/C15/distant/district_lod3.blend",
+      "role": "formal source baked distant LOD",
+      "status": "ready"
+    },
+    {
+      "asset_id": "tree_distant_master",
+      "file": "assets/source/blender/C15/distant/tree_lod3.blend",
+      "role": "formal source baked distant LOD",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_boat_tripo_original",
+      "file": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-boat-3109a9c7/model.glb",
+      "role": "untouched textured formal source",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_boat_blender_master",
+      "file": "assets/source/blender/C15/riverfront/riverfront_boat_master.blend",
+      "role": "editable normalized prop and LOD source",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_bench_tripo_original",
+      "file": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-bench-effe8b08/model.glb",
+      "role": "untouched textured formal source",
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_bench_blender_master",
+      "file": "assets/source/blender/C15/riverfront/riverfront_bench_master.blend",
+      "role": "editable normalized prop and LOD source",
+      "status": "ready"
+    }
+  ],
+  "runtime_assets": [
+    {
+      "asset_id": "habitat",
+      "file": "public/assets/C15/habitat.glb",
+      "url": "/assets/C15/habitat.glb",
+      "usage": "precise exterior and inner ecology",
+      "status": "ready",
+      "triangles": 110570,
+      "bytes": 5703652
+    },
+    {
+      "asset_id": "district_lod0",
+      "file": "public/assets/C15/district_lod0.glb",
+      "url": "/assets/C15/district_lod0.glb",
+      "usage": "close city inspection",
+      "status": "ready",
+      "triangles": 159999,
+      "bytes": 19029788
+    },
+    {
+      "asset_id": "district_lod1",
+      "file": "public/assets/C15/district_lod1.glb",
+      "url": "/assets/C15/district_lod1.glb",
+      "usage": "intermediate city approach",
+      "status": "ready",
+      "triangles": 20000,
+      "bytes": 14461544
+    },
+    {
+      "asset_id": "district_lod2",
+      "file": "public/assets/C15/district_lod2.glb",
+      "url": "/assets/C15/district_lod2.glb",
+      "usage": "distant city layout",
+      "status": "ready",
+      "triangles": 3500,
+      "bytes": 4291640
+    },
+    {
+      "asset_id": "life_support_lod0",
+      "file": "public/assets/C15/life_support_lod0.glb",
+      "url": "/assets/C15/life_support_lod0.glb",
+      "usage": "independent environmental plant near inspection",
+      "status": "ready",
+      "triangles": 80000,
+      "bytes": 16550044
+    },
+    {
+      "asset_id": "life_support_lod1",
+      "file": "public/assets/C15/life_support_lod1.glb",
+      "url": "/assets/C15/life_support_lod1.glb",
+      "usage": "independent environmental plant near inspection",
+      "status": "ready",
+      "triangles": 8000,
+      "bytes": 4326616
+    },
+    {
+      "asset_id": "life_support_lod2",
+      "file": "public/assets/C15/life_support_lod2.glb",
+      "url": "/assets/C15/life_support_lod2.glb",
+      "usage": "independent environmental plant near inspection",
+      "status": "ready",
+      "triangles": 2000,
+      "bytes": 1298548
+    },
+    {
+      "asset_id": "tree_lod0",
+      "file": "public/assets/C15/tree_lod0.glb",
+      "url": "/assets/C15/tree_lod0.glb",
+      "usage": "distance-selected mature broadleaf botanical foliage",
+      "status": "ready",
+      "triangles": 20000,
+      "bytes": 12105568
+    },
+    {
+      "asset_id": "tree_lod1",
+      "file": "public/assets/C15/tree_lod1.glb",
+      "url": "/assets/C15/tree_lod1.glb",
+      "usage": "distance-selected mature broadleaf botanical foliage",
+      "status": "ready",
+      "triangles": 5000,
+      "bytes": 3584544
+    },
+    {
+      "asset_id": "tree_lod2",
+      "file": "public/assets/C15/tree_lod2.glb",
+      "url": "/assets/C15/tree_lod2.glb",
+      "usage": "distance-selected mature broadleaf botanical foliage",
+      "status": "ready",
+      "triangles": 1000,
+      "bytes": 1014088
+    },
+    {
+      "asset_id": "riverfront_pavilion_lod0",
+      "file": "public/assets/C15/riverfront_pavilion_lod0.glb",
+      "url": "/assets/C15/riverfront_pavilion_lod0.glb",
+      "triangles": 199999,
+      "bytes": 14135384,
+      "bounds_blender_z_up": [
+        [
+          -0.6000000238418579,
+          -0.22133906185626984,
+          0
+        ],
+        [
+          0.6000000238418579,
+          0.22133906185626984,
+          0.16999948024749756
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.6000000238418579,
+          0,
+          -0.22133906185626984
+        ],
+        [
+          0.6000000238418579,
+          0.16999948024749756,
+          0.22133906185626984
+        ]
+      ],
+      "node": "riverfront_pavilion",
+      "images": [
+        {
+          "name": "Color_6e3d77fb-38b9-441e-8a02-d7e9060167e9.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "ORM_6e3d77fb-38b9-441e-8a02-d7e9060167e9.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "NormalGL_6e3d77fb-38b9-441e-8a02-d7e9060167e9.001",
+          "width": 4096,
+          "height": 4096
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 199999,
+        "nodes": [
+          "riverfront_pavilion"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_pavilion_lod1",
+      "file": "public/assets/C15/riverfront_pavilion_lod1.glb",
+      "url": "/assets/C15/riverfront_pavilion_lod1.glb",
+      "triangles": 19999,
+      "bytes": 3190824,
+      "bounds_blender_z_up": [
+        [
+          -0.5998905301094055,
+          -0.22144319117069244,
+          0
+        ],
+        [
+          0.5999909043312073,
+          0.2211683988571167,
+          0.16999836266040802
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.5998905301094055,
+          0,
+          -0.2211683988571167
+        ],
+        [
+          0.5999909043312073,
+          0.16999836266040802,
+          0.22144319117069244
+        ]
+      ],
+      "node": "riverfront_pavilion",
+      "images": [
+        {
+          "name": "Color_6e3d77fb-38b9-441e-8a02-d7e9060167e9.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "ORM_6e3d77fb-38b9-441e-8a02-d7e9060167e9.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "NormalGL_6e3d77fb-38b9-441e-8a02-d7e9060167e9.002",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 19999,
+        "nodes": [
+          "riverfront_pavilion"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_pavilion_lod2",
+      "file": "public/assets/C15/riverfront_pavilion_lod2.glb",
+      "url": "/assets/C15/riverfront_pavilion_lod2.glb",
+      "triangles": 2729,
+      "bytes": 991336,
+      "bounds_blender_z_up": [
+        [
+          -0.5911374092102051,
+          -0.22423383593559265,
+          0
+        ],
+        [
+          0.5958539247512817,
+          0.2224394679069519,
+          0.16958215832710266
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.5911374092102051,
+          0,
+          -0.2224394679069519
+        ],
+        [
+          0.5958539247512817,
+          0.16958215832710266,
+          0.22423383593559265
+        ]
+      ],
+      "node": "riverfront_pavilion",
+      "images": [
+        {
+          "name": "Color_6e3d77fb-38b9-441e-8a02-d7e9060167e9.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "ORM_6e3d77fb-38b9-441e-8a02-d7e9060167e9.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "NormalGL_6e3d77fb-38b9-441e-8a02-d7e9060167e9.003",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 2729,
+        "nodes": [
+          "riverfront_pavilion"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_pavilion_lod3",
+      "file": "public/assets/C15/riverfront_pavilion_lod3.glb",
+      "url": "/assets/C15/riverfront_pavilion_lod3.glb",
+      "triangles": 350,
+      "bytes": 373256,
+      "bounds_blender_z_up": [
+        [
+          -0.5997924208641052,
+          -0.22142153978347778,
+          0
+        ],
+        [
+          0.599750816822052,
+          0.22128893435001373,
+          0.16972443461418152
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.5997924208641052,
+          0,
+          -0.22128893435001373
+        ],
+        [
+          0.599750816822052,
+          0.16972443461418152,
+          0.22142153978347778
+        ]
+      ],
+      "node": "riverfront_pavilion",
+      "images": [
+        {
+          "name": "riverfront_pavilion_source_albedo_atlas",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 350,
+        "nodes": [
+          "riverfront_pavilion"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 1,
+        "image_sizes": [
+          [
+            512,
+            512
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_tower_lod0",
+      "file": "public/assets/C15/riverfront_tower_lod0.glb",
+      "url": "/assets/C15/riverfront_tower_lod0.glb",
+      "triangles": 199999,
+      "bytes": 21244496,
+      "bounds_blender_z_up": [
+        [
+          -0.10000000149011612,
+          -0.057691849768161774,
+          0
+        ],
+        [
+          0.10000000149011612,
+          0.057691849768161774,
+          0.7999999523162842
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.10000000149011612,
+          0,
+          -0.057691849768161774
+        ],
+        [
+          0.10000000149011612,
+          0.7999999523162842,
+          0.057691849768161774
+        ]
+      ],
+      "node": "riverfront_tower",
+      "images": [
+        {
+          "name": "Color_54ca8435-ae66-450f-b528-60bdac019bf2.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "ORM_54ca8435-ae66-450f-b528-60bdac019bf2.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "NormalGL_54ca8435-ae66-450f-b528-60bdac019bf2.001",
+          "width": 4096,
+          "height": 4096
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 199999,
+        "nodes": [
+          "riverfront_tower"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_tower_lod1",
+      "file": "public/assets/C15/riverfront_tower_lod1.glb",
+      "url": "/assets/C15/riverfront_tower_lod1.glb",
+      "triangles": 19997,
+      "bytes": 5712408,
+      "bounds_blender_z_up": [
+        [
+          -0.1001988872885704,
+          -0.05768928676843643,
+          0
+        ],
+        [
+          0.0998590737581253,
+          0.05760650709271431,
+          0.8002389669418335
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.1001988872885704,
+          0,
+          -0.05760650709271431
+        ],
+        [
+          0.0998590737581253,
+          0.8002389669418335,
+          0.05768928676843643
+        ]
+      ],
+      "node": "riverfront_tower",
+      "images": [
+        {
+          "name": "Color_54ca8435-ae66-450f-b528-60bdac019bf2.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "ORM_54ca8435-ae66-450f-b528-60bdac019bf2.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "NormalGL_54ca8435-ae66-450f-b528-60bdac019bf2.002",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 19997,
+        "nodes": [
+          "riverfront_tower"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_tower_lod2",
+      "file": "public/assets/C15/riverfront_tower_lod2.glb",
+      "url": "/assets/C15/riverfront_tower_lod2.glb",
+      "triangles": 1996,
+      "bytes": 1881676,
+      "bounds_blender_z_up": [
+        [
+          -0.09468570351600647,
+          -0.05695874243974686,
+          0
+        ],
+        [
+          0.09438401460647583,
+          0.05685073137283325,
+          0.7964534163475037
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.09468570351600647,
+          0,
+          -0.05685073137283325
+        ],
+        [
+          0.09438401460647583,
+          0.7964534163475037,
+          0.05695874243974686
+        ]
+      ],
+      "node": "riverfront_tower",
+      "images": [
+        {
+          "name": "Color_54ca8435-ae66-450f-b528-60bdac019bf2.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "ORM_54ca8435-ae66-450f-b528-60bdac019bf2.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "NormalGL_54ca8435-ae66-450f-b528-60bdac019bf2.003",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 1996,
+        "nodes": [
+          "riverfront_tower"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_tower_lod3",
+      "file": "public/assets/C15/riverfront_tower_lod3.glb",
+      "url": "/assets/C15/riverfront_tower_lod3.glb",
+      "triangles": 348,
+      "bytes": 450428,
+      "bounds_blender_z_up": [
+        [
+          -0.10001938790082932,
+          -0.0575847327709198,
+          0
+        ],
+        [
+          0.10000566393136978,
+          0.05768342688679695,
+          0.8000055551528931
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.10001938790082932,
+          0,
+          -0.05768342688679695
+        ],
+        [
+          0.10000566393136978,
+          0.8000055551528931,
+          0.0575847327709198
+        ]
+      ],
+      "node": "riverfront_tower",
+      "images": [
+        {
+          "name": "riverfront_tower_source_albedo_atlas",
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 348,
+        "nodes": [
+          "riverfront_tower"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 1,
+        "image_sizes": [
+          [
+            512,
+            512
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_environment",
+      "file": "public/assets/C15/riverfront_environment.glb",
+      "url": "/assets/C15/riverfront_environment.glb",
+      "triangles": 228370,
+      "bytes": 33368324,
+      "status": "ready"
+    },
+    {
+      "asset_id": "district_lod3",
+      "file": "public/assets/C15/district_lod3.glb",
+      "url": "/assets/C15/district_lod3.glb",
+      "triangles": 345,
+      "bytes": 1285152,
+      "status": "ready"
+    },
+    {
+      "asset_id": "tree_lod3",
+      "file": "public/assets/C15/tree_lod3.glb",
+      "url": "/assets/C15/tree_lod3.glb",
+      "triangles": 12,
+      "bytes": 2264548,
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_boat_lod0",
+      "file": "public/assets/C15/riverfront_boat_lod0.glb",
+      "url": "/assets/C15/riverfront_boat_lod0.glb",
+      "triangles": 60000,
+      "bytes": 8144216,
+      "bounds_blender_z_up": [
+        [
+          -0.05000241845846176,
+          -0.015331913717091084,
+          0
+        ],
+        [
+          0.05000000074505806,
+          0.015326591208577156,
+          0.025998344644904137
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.05000241845846176,
+          0,
+          -0.015326591208577156
+        ],
+        [
+          0.05000000074505806,
+          0.025998344644904137,
+          0.015331913717091084
+        ]
+      ],
+      "node": "riverfront_boat",
+      "images": [
+        {
+          "name": "Color_3109a9c7-6189-4329-a1dc-3a278fd74c2d.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "ORM_3109a9c7-6189-4329-a1dc-3a278fd74c2d.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "NormalGL_3109a9c7-6189-4329-a1dc-3a278fd74c2d.001",
+          "width": 4096,
+          "height": 4096
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 60000,
+        "nodes": [
+          "riverfront_boat"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_boat_lod1",
+      "file": "public/assets/C15/riverfront_boat_lod1.glb",
+      "url": "/assets/C15/riverfront_boat_lod1.glb",
+      "triangles": 10000,
+      "bytes": 2560484,
+      "bounds_blender_z_up": [
+        [
+          -0.04998967796564102,
+          -0.015300829894840717,
+          0
+        ],
+        [
+          0.05000479146838188,
+          0.015340560115873814,
+          0.025929396972060204
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.04998967796564102,
+          0,
+          -0.015340560115873814
+        ],
+        [
+          0.05000479146838188,
+          0.025929396972060204,
+          0.015300829894840717
+        ]
+      ],
+      "node": "riverfront_boat",
+      "images": [
+        {
+          "name": "Color_3109a9c7-6189-4329-a1dc-3a278fd74c2d.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "ORM_3109a9c7-6189-4329-a1dc-3a278fd74c2d.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "NormalGL_3109a9c7-6189-4329-a1dc-3a278fd74c2d.002",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 10000,
+        "nodes": [
+          "riverfront_boat"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_boat_lod2",
+      "file": "public/assets/C15/riverfront_boat_lod2.glb",
+      "url": "/assets/C15/riverfront_boat_lod2.glb",
+      "triangles": 1160,
+      "bytes": 893176,
+      "bounds_blender_z_up": [
+        [
+          -0.04745585843920708,
+          -0.01510456670075655,
+          0
+        ],
+        [
+          0.04880290478467941,
+          0.015040448866784573,
+          0.02379649132490158
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.04745585843920708,
+          0,
+          -0.015040448866784573
+        ],
+        [
+          0.04880290478467941,
+          0.02379649132490158,
+          0.01510456670075655
+        ]
+      ],
+      "node": "riverfront_boat",
+      "images": [
+        {
+          "name": "Color_3109a9c7-6189-4329-a1dc-3a278fd74c2d.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "ORM_3109a9c7-6189-4329-a1dc-3a278fd74c2d.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "NormalGL_3109a9c7-6189-4329-a1dc-3a278fd74c2d.003",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 1160,
+        "nodes": [
+          "riverfront_boat"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_bench_lod0",
+      "file": "public/assets/C15/riverfront_bench_lod0.glb",
+      "url": "/assets/C15/riverfront_bench_lod0.glb",
+      "triangles": 25000,
+      "bytes": 10566388,
+      "bounds_blender_z_up": [
+        [
+          -0.009999501518905163,
+          -0.004894790705293417,
+          0
+        ],
+        [
+          0.009999276138842106,
+          0.004895614460110664,
+          0.008999336510896683
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.009999501518905163,
+          0,
+          -0.004895614460110664
+        ],
+        [
+          0.009999276138842106,
+          0.008999336510896683,
+          0.004894790705293417
+        ]
+      ],
+      "node": "riverfront_bench",
+      "images": [
+        {
+          "name": "Color_effe8b08-2e3c-47d1-ac0c-dec202a86af7.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "ORM_effe8b08-2e3c-47d1-ac0c-dec202a86af7.001",
+          "width": 4096,
+          "height": 4096
+        },
+        {
+          "name": "NormalGL_effe8b08-2e3c-47d1-ac0c-dec202a86af7.001",
+          "width": 4096,
+          "height": 4096
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 25000,
+        "nodes": [
+          "riverfront_bench"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ],
+          [
+            4096,
+            4096
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_bench_lod1",
+      "file": "public/assets/C15/riverfront_bench_lod1.glb",
+      "url": "/assets/C15/riverfront_bench_lod1.glb",
+      "triangles": 3000,
+      "bytes": 3397572,
+      "bounds_blender_z_up": [
+        [
+          -0.00999108050018549,
+          -0.004883792717009783,
+          0
+        ],
+        [
+          0.009985473938286304,
+          0.004897046834230423,
+          0.008967109955847263
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.00999108050018549,
+          0,
+          -0.004897046834230423
+        ],
+        [
+          0.009985473938286304,
+          0.008967109955847263,
+          0.004883792717009783
+        ]
+      ],
+      "node": "riverfront_bench",
+      "images": [
+        {
+          "name": "Color_effe8b08-2e3c-47d1-ac0c-dec202a86af7.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "ORM_effe8b08-2e3c-47d1-ac0c-dec202a86af7.002",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "name": "NormalGL_effe8b08-2e3c-47d1-ac0c-dec202a86af7.002",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 3000,
+        "nodes": [
+          "riverfront_bench"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ],
+          [
+            2048,
+            2048
+          ]
+        ]
+      },
+      "status": "ready"
+    },
+    {
+      "asset_id": "riverfront_bench_lod2",
+      "file": "public/assets/C15/riverfront_bench_lod2.glb",
+      "url": "/assets/C15/riverfront_bench_lod2.glb",
+      "triangles": 1242,
+      "bytes": 1189844,
+      "bounds_blender_z_up": [
+        [
+          -0.010019425302743912,
+          -0.0047021531499922276,
+          0
+        ],
+        [
+          0.009824704378843307,
+          0.004743181634694338,
+          0.007542198523879051
+        ]
+      ],
+      "bounds_runtime_y_up": [
+        [
+          -0.010019425302743912,
+          0,
+          -0.004743181634694338
+        ],
+        [
+          0.009824704378843307,
+          0.007542198523879051,
+          0.0047021531499922276
+        ]
+      ],
+      "node": "riverfront_bench",
+      "images": [
+        {
+          "name": "Color_effe8b08-2e3c-47d1-ac0c-dec202a86af7.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "ORM_effe8b08-2e3c-47d1-ac0c-dec202a86af7.003",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "name": "NormalGL_effe8b08-2e3c-47d1-ac0c-dec202a86af7.003",
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "uv": true,
+      "finite": true,
+      "materials": 1,
+      "glb_qa": {
+        "triangles": 1242,
+        "nodes": [
+          "riverfront_bench"
+        ],
+        "uv": true,
+        "finite": true,
+        "embedded_images": 3,
+        "image_sizes": [
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ],
+          [
+            1024,
+            1024
+          ]
+        ]
+      },
+      "status": "ready"
+    }
+  ],
+  "interactive_hierarchy": [
+    {
+      "object_id": "habitat",
+      "display_name": "habitat",
+      "part_of": null,
+      "required": true
+    },
+    {
+      "object_id": "shell",
+      "display_name": "shell",
+      "part_of": "habitat",
+      "required": true
+    },
+    {
+      "object_id": "interior",
+      "display_name": "interior",
+      "part_of": "habitat",
+      "required": true
+    },
+    {
+      "object_id": "endcap",
+      "display_name": "endcap",
+      "part_of": "habitat",
+      "required": true
+    },
+    {
+      "object_id": "mirrors",
+      "display_name": "mirrors",
+      "part_of": "habitat",
+      "required": true
+    },
+    {
+      "object_id": "thermal",
+      "display_name": "thermal",
+      "part_of": "habitat",
+      "required": true
+    },
+    {
+      "object_id": "life_support",
+      "display_name": "life_support",
+      "part_of": "habitat",
+      "required": true
+    },
+    {
+      "object_id": "city",
+      "display_name": "city",
+      "part_of": "interior",
+      "required": true
+    },
+    {
+      "object_id": "forest",
+      "display_name": "forest",
+      "part_of": "interior",
+      "required": true
+    },
+    {
+      "object_id": "water",
+      "display_name": "water",
+      "part_of": "interior",
+      "required": true
+    },
+    {
+      "object_id": "agriculture",
+      "display_name": "agriculture",
+      "part_of": "interior",
+      "required": true
+    },
+    {
+      "object_id": "docking",
+      "display_name": "docking",
+      "part_of": "endcap",
+      "required": true
+    }
+  ],
+  "production_records": {
+    "script": "scripts/blender_c15.py",
+    "metadata": "public/assets/C15/asset_metadata.json",
+    "scientific_boundary": "Conceptual ONeill cylinder engineering illustration; radius40 length240 are rendering units, not measured or validated physical dimensions."
+  },
+  "tripo_tasks": [
+    {
+      "task_id": "c30d811b-06f1-48bf-8157-523f3cbce4b9",
+      "type": "text_to_model",
+      "model": "v3.1-20260211",
+      "credits_consumed": 50,
+      "review_status": "preview_checked"
+    },
+    {
+      "task_id": "9f6f6a37-849c-4110-85aa-6ae4373c326e",
+      "type": "text_to_model",
+      "model": "v3.1-20260211",
+      "credits_consumed": 50,
+      "review_status": "preview_checked"
+    },
+    {
+      "task_id": "3372ce92-9b1c-47bc-8373-2363c7651abd",
+      "type": "text_to_model",
+      "model": "v3.1-20260211",
+      "credits_consumed": 30,
+      "review_status": "preview_checked"
+    },
+    {
+      "task_id": "6e3d77fb-38b9-441e-8a02-d7e9060167e9",
+      "type": "text_to_model",
+      "model": "v3.1-20260211",
+      "credits_consumed": 50,
+      "review_status": "preview_checked"
+    },
+    {
+      "task_id": "54ca8435-ae66-450f-b528-60bdac019bf2",
+      "type": "text_to_model",
+      "model": "v3.1-20260211",
+      "credits_consumed": 50,
+      "review_status": "preview_checked"
+    },
+    {
+      "task_id": "3109a9c7-6189-4329-a1dc-3a278fd74c2d",
+      "type": "text_to_model",
+      "model": "v3.1-20260211",
+      "credits_consumed": 50,
+      "review_status": "preview_checked"
+    },
+    {
+      "task_id": "effe8b08-2e3c-47d1-ac0c-dec202a86af7",
+      "type": "text_to_model",
+      "model": "v3.1-20260211",
+      "credits_consumed": 50,
+      "review_status": "preview_checked"
+    }
+  ],
+  "visual_target": ".impeccable/mocks/C15-pc-A.png"
+}

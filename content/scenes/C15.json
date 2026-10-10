@@ -1,0 +1,313 @@
+{
+  "schema_version": "0.8",
+  "concept_id": "C15",
+  "mode": "explore",
+  "implementation_status": "in_development",
+  "render_space": "illustrative_scene_units",
+  "scale_notice": "工程尺寸和内部景观为概念化设计，镜头使用教学比例",
+  "asset_manifest": "C15_asset_manifest.json",
+  "camera_contract": {
+    "can_interrupt_all_presets": true,
+    "presets": [
+      {
+        "id": "overview",
+        "focus": "habitat"
+      },
+      {
+        "id": "flyby",
+        "focus": "docking"
+      },
+      {
+        "id": "inspection",
+        "focus": "city"
+      }
+    ]
+  },
+  "object_hierarchy": [
+    {
+      "object_id": "habitat",
+      "parent": null,
+      "kind": "system"
+    },
+    {
+      "object_id": "shell",
+      "parent": "habitat",
+      "kind": "group"
+    },
+    {
+      "object_id": "interior",
+      "parent": "habitat",
+      "kind": "group"
+    },
+    {
+      "object_id": "endcap",
+      "parent": "habitat",
+      "kind": "group"
+    },
+    {
+      "object_id": "mirrors",
+      "parent": "habitat",
+      "kind": "group"
+    },
+    {
+      "object_id": "thermal",
+      "parent": "habitat",
+      "kind": "group"
+    },
+    {
+      "object_id": "life_support",
+      "parent": "habitat",
+      "kind": "group"
+    },
+    {
+      "object_id": "city",
+      "parent": "interior",
+      "kind": "entity"
+    },
+    {
+      "object_id": "forest",
+      "parent": "interior",
+      "kind": "entity"
+    },
+    {
+      "object_id": "water",
+      "parent": "interior",
+      "kind": "entity"
+    },
+    {
+      "object_id": "agriculture",
+      "parent": "interior",
+      "kind": "entity"
+    },
+    {
+      "object_id": "docking",
+      "parent": "endcap",
+      "kind": "entity"
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "habitat",
+      "name": "旋转太空殖民地",
+      "parent": null,
+      "level": "system",
+      "role": "旋转圆柱中的居住世界",
+      "explanation": "旋转使舱壁成为脚下地面。舱外可见完整圆柱，舱内可见远方倒悬的地貌；本场景展示工程概念，尚非已建成设施。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "圆柱壳体",
+      "parent": "habitat",
+      "level": "group",
+      "role": "承载与防护结构",
+      "explanation": "壳体承受旋转结构载荷，并承担密封、防护与维护需求。剖面仅用于理解内部布局。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "interior",
+      "name": "内壁生态区",
+      "parent": "habitat",
+      "level": "group",
+      "role": "城市与生态带",
+      "explanation": "居住带、森林、水体与农业带沿圆柱内壁展开。繁茂景观是概念化设计，不代表闭合生态系统已经解决。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "endcap",
+      "name": "端盖与轴向设施",
+      "parent": "habitat",
+      "level": "group",
+      "role": "旋转端部结构",
+      "explanation": "端盖连接壳体、轴向设施与入口。轴线附近旋转产生的人工重力较弱。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "mirrors",
+      "name": "采光镜系统",
+      "parent": "habitat",
+      "level": "group",
+      "role": "将阳光引入内部",
+      "explanation": "外部镜面将光线引向圆柱采光区域，内部照明、热控制与辐射防护需要共同设计。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "thermal",
+      "name": "散热设施",
+      "parent": "habitat",
+      "level": "group",
+      "role": "将废热辐射至太空",
+      "explanation": "人口与设备产生的废热需要通过散热设施排出；太空没有可直接用于散热的外部空气。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "life_support",
+      "name": "生命保障设施",
+      "parent": "habitat",
+      "level": "group",
+      "role": "空气与水循环",
+      "explanation": "空气、水和营养循环需要监测、净化、补给与维护。可见管线与设备仅示意功能布局。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "name": "内壁城市",
+      "parent": "interior",
+      "level": "entity",
+      "role": "人工重力下的居住区",
+      "explanation": "近处街区与头顶远方城市共同建立圆柱尺度。沿圆周行进时，脚下地面法线持续变化；内部观察默认随舱体旋转。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "森林生态区",
+      "parent": "interior",
+      "level": "entity",
+      "role": "绿地与生态调节",
+      "explanation": "森林提供生活空间和生态调节的设计意象。生态稳定性不能由植被数量推断。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "内壁水域",
+      "parent": "interior",
+      "level": "entity",
+      "role": "水循环与景观",
+      "explanation": "水域位于内壁，向外的有效重力使水保持在舱壁一侧。流动、水质与循环维护仍需工程设计。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "name": "农业带",
+      "parent": "interior",
+      "level": "entity",
+      "role": "食物与循环系统",
+      "explanation": "农业带展示食物生产设施。产量、能耗与营养循环不在本场景中进行定量模拟。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    },
+    {
+      "id": "docking",
+      "name": "轴向入口",
+      "parent": "endcap",
+      "level": "entity",
+      "role": "从舱外进入内壁",
+      "explanation": "入口沿旋转轴连接内部空间。镜头路径为观察演示，不模拟运输器动力学或人体失重适应。",
+      "science": "S1 旋转人工重力原理 / S2 概念工程设计",
+      "links": [
+        {
+          "title": "NASA：人工重力与辐射防护研究",
+          "url": "https://ntrs.nasa.gov/api/citations/20230013553/downloads/Artificial%20gravity%20and%20radiation%20shielding.pdf"
+        }
+      ]
+    }
+  ],
+  "narration_topics": [
+    "rotation",
+    "world",
+    "light",
+    "ecology"
+  ],
+  "narration": [
+    {
+      "id": "rotation",
+      "title": "旋转如何成为重力",
+      "focusId": "habitat",
+      "text": "旋转参考系中的向外有效重力使舱壁成为地面；其强度取决于半径和角速度，靠近轴线逐渐减弱。",
+      "overlays": [
+        "gravity"
+      ]
+    },
+    {
+      "id": "world",
+      "title": "抬头看到另一个地面",
+      "focusId": "city",
+      "text": "圆柱内壁环绕观察者。近处城市与头顶倒悬地貌是同一个旋转结构的不同区域。",
+      "overlays": [
+        "cutaway"
+      ]
+    },
+    {
+      "id": "light",
+      "title": "光照与废热",
+      "focusId": "mirrors",
+      "text": "镜面采光、辐射防护和热管理需要协调。外观中的镜面与散热设施展示功能关系，不表示已验证的工程性能。",
+      "overlays": [
+        "light",
+        "heat"
+      ]
+    },
+    {
+      "id": "ecology",
+      "title": "生命保障的边界",
+      "focusId": "life_support",
+      "text": "封闭居住环境需要长期稳定的空气、水、营养循环和维护。展示森林与城市并不能证明闭合生态已经可行。",
+      "overlays": []
+    }
+  ]
+}

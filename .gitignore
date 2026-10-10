@@ -1,0 +1,11 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.tools/
+.tripo/
+*.blend[0-9]
+artifacts/dev-server*.log
+__pycache__/
+*.pyc

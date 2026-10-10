@@ -1,0 +1,40 @@
+{
+  "concept_id": "C15",
+  "purpose": "PC target A human-scale reference props, fully 3D river ferry and public bench",
+  "authorization": "Existing user authorization for C15 asset generation without credit cap",
+  "model_cli_alias": "tripo-v3.1",
+  "model_wire_value": "v3.1-20260211",
+  "calls": [
+    {
+      "asset_id": "riverfront_boat",
+      "task_id": "3109a9c7-6189-4329-a1dc-3a278fd74c2d",
+      "type": "text_to_model",
+      "status": "success",
+      "credits_consumed": 50,
+      "native_geometry_triangles": 104116,
+      "source_directory": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-boat-3109a9c7",
+      "download_recovery": "First automatic download failed; recovered freely using task get --download for same task, never resubmitted generation",
+      "normalized_scale": "10m length, 3.07m beam, 2.6m total height; bottom origin Y=0, long +X"
+    },
+    {
+      "asset_id": "riverfront_bench",
+      "task_id": "effe8b08-2e3c-47d1-ac0c-dec202a86af7",
+      "type": "text_to_model",
+      "status": "success",
+      "credits_consumed": 50,
+      "native_geometry_triangles": 49200,
+      "source_directory": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-bench-effe8b08",
+      "download_recovery": "First automatic download failed; recovered freely using task get --download for same task, never resubmitted generation",
+      "normalized_scale": "2m length, 0.98m overall depth, 0.9m back height; ground origin Y=0, long +X"
+    }
+  ],
+  "credits_consumed_this_batch": 100,
+  "riverfront_credits_consumed_including_architecture": 200,
+  "balance_after": 13440,
+  "paid_processing_calls": 0,
+  "local_processing_script": "scripts/blender_c15_props.py",
+  "shared_processing_helper": "scripts/blender_c15_heroes.py",
+  "runtime_manifest": "content/scenes/C15_riverfront_assets.json",
+  "qa": "Direct GLB checks passed: triangle index count, UV, finite position floats, stable mesh node, embedded JPEG/PNG dimensions. Native 4K Color/ORM/Normal retained in LOD0, downsampled to 2K and 1K; no enlarged source texture claims.",
+  "limitations": "Objects provide scale at actual near placement. Cinema quality and readability require integrated frame review. Distant collapse stops at 1160 boat and 1242 bench triangles due to disconnected details; measured counts are recorded rather than claimed target counts."
+}

@@ -1,0 +1,92 @@
+E:\Projects\Cosmic Engineering Simulator\scripts\blender_c15_riverfront.py:80: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+00:03.172  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Dots Stroke' 的相对路径
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:03.172  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Material' 的相对路径
+信息: 已另存为 "riverfront_master.blend"
+INFO Draco is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+18:42:48 | INFO: Starting glTF 2.0 export
+18:42:48 | INFO: Extracting primitive: bridge_0
+18:42:48 | INFO: Primitives created: 3
+18:42:48 | INFO: Extracting primitive: bridge_1
+18:42:48 | INFO: Primitives created: 3
+18:42:48 | INFO: Extracting primitive: bridge_2
+18:42:48 | INFO: Primitives created: 3
+18:42:48 | INFO: Extracting primitive: cascade_water_0
+18:42:48 | INFO: Primitives created: 1
+18:42:48 | INFO: Extracting primitive: dock_hero
+18:42:48 | INFO: Primitives created: 3
+18:42:48 | INFO: Extracting primitive: embankment_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: embankment_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: embankment_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: glass_segments_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: glass_segments_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: glass_segments_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: public_lighting
+18:42:49 | INFO: Primitives created: 2
+18:42:49 | INFO: Extracting primitive: public_planting_beds
+18:42:49 | INFO: Primitives created: 2
+18:42:49 | INFO: Extracting primitive: public_streets_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: public_streets_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: public_streets_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: river_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: river_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: river_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: rocks_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: rocks_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: rocks_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: rocks_hero
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: terrain_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: terrain_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: terrain_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: terrain_edge_cliff_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: terrain_edge_cliff_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: terrain_edge_cliff_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: walkway_0
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: walkway_1
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: walkway_2
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: walkway_hero_joints
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: walkway_hero_lights
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: walkway_hero_plaza
+18:42:49 | INFO: Primitives created: 2
+18:42:49 | INFO: Extracting primitive: walkway_hero_rails
+18:42:49 | INFO: Primitives created: 1
+18:42:49 | INFO: Extracting primitive: window_frame_0
+18:42:49 | INFO: Primitives created: 2
+18:42:49 | INFO: Extracting primitive: window_frame_1
+18:42:49 | INFO: Primitives created: 2
+18:42:49 | INFO: Extracting primitive: window_frame_2
+18:42:49 | INFO: Primitives created: 2
+18:42:49 | INFO: Finished glTF 2.0 export in 1.3708806037902832 s
+
+RIVERFRONT_COMPLETE {"triangles": 228370, "meshCount": 39, "materialCount": 8, "drawCallPrimitives": 53, "missingUV": 0, "nonFiniteVertices": 0, "bytes": 33368324, "checks": ["river at z=-40 is 62m wide", "horizontal pavilion footing Y=-39.38 with terrain datum Y=-39.41", "18 actual terrain BVH rays confirm no grass polygons across water channel", "continuous three land belts and winding waterways", "geometric near bridge piers/arch/deck/railing/graded approaches", "12 editable PBR raster maps packed into source and GLB"], "previewStatus": "pending_render"}
+
+Blender quit

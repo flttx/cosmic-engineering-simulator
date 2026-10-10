@@ -1,0 +1,31 @@
+{
+  "task_id": "54ca8435-ae66-450f-b528-60bdac019bf2",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "pbr": true,
+    "prompt": "A single standalone photorealistic contemporary premium residential tower, 14 storeys, slender rectilinear mass with stepped terraces, beautifully engineered clean straight architecture, ivory concrete structure and blue grey full height glass curtain walls, deep naturally integrated balconies with thin horizontal slabs, warm timber balcony soffits, slim silver mullions, precise rectangular windows, elegant roof garden terraces, ground floor public glazed lobby and thin columns, one coherent building fully visible isolated on neutral background, no ground no terrain no trees no river no people no pedestal no huge baseplate, PBR high fidelity architecture, undamaged straight surfaces",
+    "texture": true,
+    "export_uv": true,
+    "face_limit": 220000,
+    "model_version": "v3.1-20260211",
+    "negative_prompt": "ruins,broken,wrinkled,crumpled,warped,blob,miniature,cartoon,trees,people,huge platform,landscape,city block,cluster",
+    "texture_quality": "detailed",
+    "geometry_quality": "detailed",
+    "texture_alignment": "geometry"
+  },
+  "output_fields": [
+    "model_url",
+    "rendered_image_url",
+    "generated_image_url"
+  ],
+  "credits_consumed": 50,
+  "created_at": "2026-10-09T09:26:59.066021Z",
+  "completed_at": "2026-10-09T09:29:00.915471Z",
+  "files": [
+    "model.glb",
+    "rendered_image.webp",
+    "generated_image.jpeg",
+    "preview.png"
+  ]
+}

@@ -1,0 +1,11 @@
+# C15 PC environment rebuild — 2026-10-09
+
+- Read ponytail full, global workflow/coding/collaboration and both actual Tripo skills. Reused installed Blender and original repair/export pipeline; no dependency added.
+- Tripo broadleaf task `3372ce92-9b1c-47bc-8373-2363c7651abd`: `v3.1-20260211`, detailed PBR texture, standard geometry; doctor and exact command dry-run passed. Blocking make submitted once, downloaded after success, actual 30 credits. Source `assets/source/tripo/C15/tripo-out/c15-broadleaf-tree-3372ce92/` retained untouched.
+- Tree normalized to centered bottom pivot; exported runtime Y-up, 1.8 high, footprint 1.20684 by 1.4. One mesh/one material with source base, metal-roughness and normal textures. Source has separate geometric leaf silhouettes and no alpha-card material; do not claim alpha cards were generated.
+- Tree LODs measured 20,000 / 5,000 / 1,000 triangles, texture limits 2048 / 1024 / 512. Source master saved before runtime decimation; runtime LOD0 reviewed in `review_tree_lod0.png`; some leaf-edge angularity remains at 20k, final scene film quality requires browser judgment.
+- Macro removed all ellipsoid proxy tree crowns; added smooth terrain radius39.5 +/-0.15, winding banks/water/contour roads, curving subdivided crop terraces, soil micro normals. Ground remains bounded to support root's building pivots.
+- Dock interface now closed/thick annular pressure wall, bearing housing and seal, fastening ring, service corridor panels, eight inspection pods per end. Mirrors are closed substrates with separate edge frames and diagonal rear members. Macro titanium normal/roughness packed from C01 source textures; terrain micro-normal map generated and packed.
+- Dedicated equipment platform: runtime center [0,-39.35,78], topY -39.05, width6, depth7; node `equipment_platform` stays distinct from former generic life_support placeholder.
+- `--macro-only`/legacy `--habitat-only` preserve all formal district/life_support/tree exports and their metadata; `--tree-only` repairs only tree after macro regeneration. City and plant LOD budgets/content retained.
+- Blender asserts macro <180k, nonfinite vertices0; tree QA one mesh/one material, UV missing0, nonfinite0. npm lint and validate:content passed after asset generation. Root owns final runtime tests and browser/performance acceptance.

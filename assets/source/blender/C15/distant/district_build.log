@@ -1,0 +1,20 @@
+17:33:05 | INFO: Data are loaded, start creating Blender stuff
+17:33:05 | INFO: Blender create Mesh node tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9.002
+17:33:06 | INFO: glTF import finished in 0.34s
+E:\Projects\Cosmic Engineering Simulator\scripts\blender_c15_distant.py:93: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  material.use_nodes = True
+00:04.046  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Dots Stroke' 的相对路径
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:04.046  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Material' 的相对路径
+警告: 没有可供合并的网格数据 (请检查要合并的物体是否都是网格，比如有一个物体是曲线。此功能仅能合并网格物体)
+信息: 将烘焙贴图保存为内部、外部图像文件或将其打包
+信息: 已另存为 "district_lod3.blend"
+INFO Draco is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+17:33:08 | INFO: Starting glTF 2.0 export
+17:33:08 | WARNING: Mesh tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9.001 is not valid, and may be exported wrongly
+17:33:08 | INFO: Extracting primitive: tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9.001
+17:33:08 | INFO: Primitives created: 1
+17:33:08 | INFO: Finished glTF 2.0 export in 0.011396646499633789 s
+
+C15_DISTRICT_DISTANT_COMPLETE {"coordinateFrame": "GLB +Y up, centered-bottom origin", "district": {"file": "district_lod3.glb", "bytes": 36732, "triangles": 345, "vertices": 187, "materials": 1, "missingUV": false, "nonFiniteVertices": 0, "runtimeBounds": {"min": [-5.0, 0.0, -2.745757579803467], "max": [5.0, 3.397142171859741, 2.745757579803467]}, "textures": [{"name": "district_far_native_facade_atlas", "width": 1024, "height": 1024}], "source": "public/assets/C15/district_lod0.glb", "sourceSha256": "b26fbdf56e9dfe5a61f0c4bac793377766d89cf01d6fb4365da5bc68632e275e", "editableProject": "assets/source/blender/C15/distant/district_lod3.blend", "technique": "Native voxel-consolidated formal building massing reduced to 350 triangles; projected original facade colors and windows baked at 1024px", "minimumDistance": 30}}

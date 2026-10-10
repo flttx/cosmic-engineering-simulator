@@ -1,0 +1,29 @@
+{
+  "task_id": "c30d811b-06f1-48bf-8157-523f3cbce4b9",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "pbr": true,
+    "prompt": "A photorealistic architectural model of a mature orbital space colony neighborhood on a rectangular platform, diverse elegant mid-rise terraced residential buildings with balconies, one curved glass civic atrium, a segmented glass greenhouse, rooftop solar equipment and mechanical utility annex, pedestrian courtyards with mature trees and gardens, white ceramic concrete brushed aluminum and dark blue glazing, believable contemporary engineering and detailed facade windows, clean inhabited sustainable city, highly detailed PBR surfaces, no text no labels no futuristic neon, standalone modular block with flat base",
+    "texture": true,
+    "export_uv": true,
+    "model_version": "v3.1-20260211",
+    "texture_quality": "detailed",
+    "geometry_quality": "detailed",
+    "texture_alignment": "geometry"
+  },
+  "output_fields": [
+    "model_url",
+    "rendered_image_url",
+    "generated_image_url"
+  ],
+  "credits_consumed": 50,
+  "created_at": "2026-10-09T07:46:27.040396Z",
+  "completed_at": "2026-10-09T07:50:15.139276Z",
+  "files": [
+    "model.glb",
+    "rendered_image.webp",
+    "generated_image.jpeg",
+    "preview.png"
+  ]
+}

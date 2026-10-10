@@ -1,0 +1,46 @@
+{
+  "viewport": "1920x1080",
+  "deviceScaleFactor": 1,
+  "quality": "standard",
+  "browser": "156.0.8078.4",
+  "renderRevision": "1c0d5958b7adb2fff101aa66f6eecef2efc4fddfaf1271872d6e575cd8e52c3e",
+  "versionStable": true,
+  "firstMetricsMs": 2786.6857,
+  "results": [
+    {
+      "view": "恒星系全景",
+      "durationMs": 60010.59999999702,
+      "frames": 3601,
+      "medianFps": 59.880239520968516,
+      "frameP95": 16.799999999999272,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 (0x00002582) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "calls": 49,
+      "triangles": 273026,
+      "textures": 7
+    },
+    {
+      "view": "巨构掠过",
+      "durationMs": 60013.00000000297,
+      "frames": 3601,
+      "medianFps": 59.880239520968516,
+      "frameP95": 16.80000000000291,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 (0x00002582) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "calls": 70,
+      "triangles": 386824,
+      "textures": 18
+    },
+    {
+      "view": "单体检查",
+      "durationMs": 60003.29999999702,
+      "frames": 3601,
+      "medianFps": 59.8802395210207,
+      "frameP95": 16.79999999998836,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 (0x00002582) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "calls": 70,
+      "triangles": 386824,
+      "textures": 18
+    }
+  ],
+  "failures": [],
+  "capturedAt": "2026-10-09T06:44:04.558Z"
+}

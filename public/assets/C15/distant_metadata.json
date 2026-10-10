@@ -1,0 +1,109 @@
+{
+  "coordinateFrame": "GLB +Y up, centered-bottom origin",
+  "district": {
+    "file": "district_lod3.glb",
+    "bytes": 1285152,
+    "triangles": 345,
+    "vertices": 187,
+    "materials": 1,
+    "missingUV": false,
+    "nonFiniteVertices": 0,
+    "runtimeBounds": {
+      "min": [
+        -5,
+        0,
+        -2.745757579803467
+      ],
+      "max": [
+        5,
+        3.397142171859741,
+        2.745757579803467
+      ]
+    },
+    "textures": [
+      {
+        "name": "district_far_native_facade_atlas",
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "source": "public/assets/C15/district_lod0.glb",
+    "sourceSha256": "b26fbdf56e9dfe5a61f0c4bac793377766d89cf01d6fb4365da5bc68632e275e",
+    "editableProject": "assets/source/blender/C15/distant/district_lod3.blend",
+    "technique": "Native voxel-consolidated formal building massing reduced to 350 triangles; projected original facade colors and windows baked at 1024px",
+    "minimumDistance": 30,
+    "originalSource": "assets/source/tripo/C15/tripo-out/c15-ecology-district-c30d811b/model.glb",
+    "originalProject": "assets/source/blender/C15/district_master.blend",
+    "exportedQA": {
+      "triangles": 345,
+      "finite": true,
+      "uv": true,
+      "sourceUnchanged": true,
+      "images": 1,
+      "alphaModes": [
+        "OPAQUE"
+      ]
+    },
+    "distanceUnits": "Unscaled source-model reference units; multiply threshold by instance scale in the physical scene."
+  },
+  "tree": {
+    "file": "tree_lod3.glb",
+    "bytes": 2264548,
+    "triangles": 12,
+    "vertices": 24,
+    "materials": 3,
+    "missingUV": false,
+    "nonFiniteVertices": 0,
+    "runtimeBounds": {
+      "min": [
+        -0.6056962013244629,
+        0,
+        -0.5625970959663391
+      ],
+      "max": [
+        0.6056962013244629,
+        1.7999999523162842,
+        0.5625970959663391
+      ]
+    },
+    "textures": [
+      {
+        "name": "tree_far_direction_0",
+        "width": 638,
+        "height": 948
+      },
+      {
+        "name": "tree_far_direction_1",
+        "width": 685,
+        "height": 949
+      },
+      {
+        "name": "tree_far_direction_2",
+        "width": 674,
+        "height": 949
+      }
+    ],
+    "source": "public/assets/C15/tree_lod0.glb",
+    "sourceSha256": "4f4362a6fa39d050f24e9eb5474f826a5b11400407ab71b005f6e11971600598",
+    "editableProject": "assets/source/blender/C15/distant/tree_lod3.blend",
+    "technique": "Three 60-degree crossed alpha planes, native Cycles renders of formal 20000-triangle tree LOD0; far only",
+    "minimumDistance": 30,
+    "renderProject": "assets/source/blender/C15/distant/tree_render_source.blend",
+    "closeGeometryRequired": true,
+    "originalSource": "assets/source/tripo/C15/tripo-out/c15-broadleaf-tree-3372ce92/model.glb",
+    "originalProject": "assets/source/blender/C15/tree_master.blend",
+    "exportedQA": {
+      "triangles": 12,
+      "finite": true,
+      "uv": true,
+      "sourceUnchanged": true,
+      "images": 3,
+      "alphaModes": [
+        "MASK",
+        "MASK",
+        "MASK"
+      ]
+    },
+    "distanceUnits": "Unscaled source-model reference units; multiply threshold by instance scale in the physical scene."
+  }
+}

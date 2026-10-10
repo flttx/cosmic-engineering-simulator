@@ -1,0 +1,29 @@
+{
+  "task_id": "3372ce92-9b1c-47bc-8373-2363c7651abd",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "pbr": true,
+    "prompt": "A single photorealistic mature broadleaf oak tree for a cinematic space habitat ecology, full isolated tree with visible weathered bark trunk, branching limbs, complex asymmetrical airy crown with thousands of individually readable green leaves and natural foliage gaps, realistic botanical anatomy, detailed leaf veins, PBR bark and foliage, no ground base, no pot, no grass, no scenery. Entire tree from root bottom to top canopy. Natural daylight neutral textures, clean transparent leaf silhouettes. Not cartoon, not smooth spherical canopy, not conical, not plastic.",
+    "texture": true,
+    "export_uv": true,
+    "model_version": "v3.1-20260211",
+    "texture_quality": "detailed",
+    "geometry_quality": "standard",
+    "texture_alignment": "geometry"
+  },
+  "output_fields": [
+    "model_url",
+    "rendered_image_url",
+    "generated_image_url"
+  ],
+  "credits_consumed": 30,
+  "created_at": "2026-10-09T08:36:11.848700Z",
+  "completed_at": "2026-10-09T08:40:01.327188Z",
+  "files": [
+    "model.glb",
+    "rendered_image.webp",
+    "generated_image.jpeg",
+    "preview.png"
+  ]
+}

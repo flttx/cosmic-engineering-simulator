@@ -1,0 +1,109 @@
+{
+  "asset": "C01 collector",
+  "coordinateFrame": "+Y up, collecting face +Y; conceptual nonmetric display units",
+  "provenance": {
+    "provider": "Tripo",
+    "taskId": "80e211fb-e27e-42d3-9314-21f2c314455c",
+    "credits": 50,
+    "source": "assets\\source\\tripo\\tripo-out\\c01-collector-master-80e211fb\\model.glb",
+    "sourceFaces": 1977565,
+    "blender": "5.2.1 LTS"
+  },
+  "sourceProject": "assets/source/blender/C01/collector_master.blend",
+  "nodes": [
+    "collector_surface",
+    "support_truss",
+    "radiator",
+    "attitude_module"
+  ],
+  "anchors": {
+    "collector_surface": [
+      0,
+      0,
+      -2.4
+    ],
+    "support_truss": [
+      0,
+      0,
+      0
+    ],
+    "radiator": [
+      0,
+      0.5,
+      2.4
+    ],
+    "attitude_module": [
+      4.6,
+      0,
+      0
+    ]
+  },
+  "materials": [
+    "graphite",
+    "titanium",
+    "copper",
+    "ceramic",
+    "blanket",
+    "glass",
+    "navigation"
+  ],
+  "lods": [
+    {
+      "level": 0,
+      "path": "/assets/C01/collector_lod0.glb",
+      "triangles": 62904,
+      "bytes": 3866756
+    },
+    {
+      "level": 1,
+      "path": "/assets/C01/collector_lod1.glb",
+      "triangles": 25125,
+      "bytes": 2345784
+    },
+    {
+      "level": 2,
+      "path": "/assets/C01/collector_lod2.glb",
+      "triangles": 12059,
+      "bytes": 1579764
+    }
+  ],
+  "textures": {
+    "source": "assets/source/blender/C01/textures",
+    "size": [
+      512,
+      512
+    ],
+    "sets": [
+      "silicon base/roughness/normal",
+      "titanium base/roughness/normal",
+      "blanket base/roughness/normal"
+    ],
+    "mapping": "Explicit per-face material tile UV; intentional repeat, no unique atlas overlap",
+    "runtime": "embedded PNG in GLB"
+  },
+  "maintenanceScale": {
+    "factorFromPrevious": 0.16666666666666666,
+    "approxMaxExtent": 0.1833,
+    "meaning": "Fixed conceptual visual scale; collecting wing span about 36 times craft maximum span, no physical meters asserted"
+  },
+  "repairs": [
+    "Retained untouched Tripo original collection; runtime keeps cropped central generated frame only",
+    "Review P1 repair: rejected all folded source panels and fused endcaps; reconstructed independent machined industrial shells and docking interfaces",
+    "Normalized orientation; welded near-duplicate vertices; recalculated outward normals; decimated runtime topology",
+    "Replaced neutral generated appearance with graphite/titanium/copper PBR",
+    "Added thickened collecting substrates, cell segmentation, independent radiator fins with connected thermal pipes, explicit cage diagonals, service plates and thruster buses",
+    "Raised metallic material roughness to suppress liquid-like highlights",
+    "Runtime-only copies merged by part and material; source retains separate editable components",
+    "Silicon and ceramic nonmetallic; tileable PBR cell interconnect, brushed metal and insulation maps embedded",
+    "Added hatch hinges/fasteners, panel fasteners, service treads and clamped power cable bundles",
+    "Independent part parents preserve exploded-view pivots and picking IDs"
+  ],
+  "scientificBoundary": "Illustrative engineering design; no physical dimensions, performance or mass asserted.",
+  "qa": {
+    "meshCount": 273,
+    "runtimeMeshCount": 12,
+    "missingUV": [],
+    "nonFiniteVertices": 0,
+    "artReview": "Eleven Blender studio views and seven browser views reviewed. Independent disposition: ship as a reviewable realistic visual prototype; no material blockers. User acceptance or photographic fidelity not asserted."
+  }
+}

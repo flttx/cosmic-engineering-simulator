@@ -1,0 +1,50 @@
+{
+  "scene": "C15",
+  "viewport": "1920x1080",
+  "deviceScaleFactor": 1,
+  "quality": "standard",
+  "browser": "156.0.8078.4",
+  "renderRevision": "3859844cb77255512b9657dfd9faaf59172f38c385c1758cf08b6c63f7149d52",
+  "versionStable": true,
+  "firstMetricsMs": 2850.8,
+  "results": [
+    {
+      "view": "舱外全景",
+      "durationMs": 60004.09999999404,
+      "frames": 3601,
+      "averageFps": 60.01256580800908,
+      "medianFps": 59.880239520968516,
+      "frameP95": 16.80000000000291,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 (0x00002582) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "calls": 90,
+      "triangles": 791480,
+      "textures": 30
+    },
+    {
+      "view": "端盖入口",
+      "durationMs": 60000.899999999994,
+      "frames": 3601,
+      "averageFps": 60.01576643017022,
+      "medianFps": 59.880239520968516,
+      "frameP95": 16.80000000000291,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 (0x00002582) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "calls": 90,
+      "triangles": 791480,
+      "textures": 30
+    },
+    {
+      "view": "内壁城市",
+      "durationMs": 60002.70000000298,
+      "frames": 3601,
+      "averageFps": 60.01396603819197,
+      "medianFps": 59.8802395210207,
+      "frameP95": 16.800000000017462,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3050 (0x00002582) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "calls": 65,
+      "triangles": 2927332,
+      "textures": 32
+    }
+  ],
+  "failures": [],
+  "capturedAt": "2026-10-09T08:57:39.361Z"
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "NASA/SDO",
+  "fetchedOn": "2026-10-09",
+  "isLive": false,
+  "mapping": "Frozen day-side observation reference projected toward the observer onto a 3D teaching sphere; no measured back-side coverage",
+  "images": [
+    {
+      "id": "euv",
+      "file": "nasa_aia_171.jpg",
+      "channel": "AIA 171 Å (false color)",
+      "resolution": 2048,
+      "url": "https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0171.jpg",
+      "observed": "2026-09-21 15:26:46 UT",
+      "bytes": 666287,
+      "sha256": "3ec7ecca484ffb7b659a62323cd6fcbb4760636b1e00cbe36de353727cfdf634"
+    }
+  ]
+}

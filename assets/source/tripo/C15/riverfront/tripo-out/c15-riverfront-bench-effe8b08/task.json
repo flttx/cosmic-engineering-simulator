@@ -1,0 +1,31 @@
+{
+  "task_id": "effe8b08-2e3c-47d1-ac0c-dec202a86af7",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "pbr": true,
+    "prompt": "One standalone photorealistic modern public promenade park bench, two meter long seating for three adults, pale warm teak horizontal slatted seat and backrest, two slim dark graphite cast aluminum support legs, gently angled backrest, two restrained metal armrests, real engineered outdoor street furniture, precisely manufactured intact straight parallel wood slats and clean metallic surfaces, high fidelity PBR materials subtle wood grain, full object visible isolated on neutral background, no people no trees no plants no ground no baseplate no text, human scale furniture",
+    "texture": true,
+    "export_uv": true,
+    "face_limit": 60000,
+    "model_version": "v3.1-20260211",
+    "negative_prompt": "cartoon,toy,damaged,broken,crumpled,warped,organic,people,plants,ground,baseplate,landscape,multiple benches",
+    "texture_quality": "detailed",
+    "geometry_quality": "detailed",
+    "texture_alignment": "geometry"
+  },
+  "output_fields": [
+    "model_url",
+    "rendered_image_url",
+    "generated_image_url"
+  ],
+  "credits_consumed": 50,
+  "created_at": "2026-10-09T10:24:43.227858Z",
+  "completed_at": "2026-10-09T10:27:01.032676Z",
+  "files": [
+    "model.glb",
+    "rendered_image.webp",
+    "generated_image.jpeg",
+    "preview.png"
+  ]
+}

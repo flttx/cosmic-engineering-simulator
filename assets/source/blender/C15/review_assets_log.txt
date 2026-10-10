@@ -1,0 +1,13 @@
+16:26:33 | INFO: Data are loaded, start creating Blender stuff
+16:26:33 | INFO: Blender create Mesh node tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9.002
+16:26:33 | INFO: glTF import finished in 0.34s
+E:\Projects\Cosmic Engineering Simulator\assets\source\blender\C15\review_assets.py:24: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes = True
+00:08.313  render           | Saved: 'E:\Projects\Cosmic Engineering Simulator\assets\source\blender\C15\review_district_lod0.png'
+16:26:40 | INFO: Data are loaded, start creating Blender stuff
+16:26:40 | INFO: Blender create Mesh node tripo_mesh_9f6f6a37-849c-4110-85aa-6ae4373c326e.002
+16:26:40 | INFO: glTF import finished in 0.23s
+00:16.297  render           | Saved: 'E:\Projects\Cosmic Engineering Simulator\assets\source\blender\C15\review_life_support_lod0.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

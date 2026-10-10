@@ -1,0 +1,41 @@
+{
+  "concept_id": "C15",
+  "art_target": ".impeccable/mocks/C15-pc-A.png",
+  "target_usage": "PC riverbank hero architecture; full 3D assets, no reference image used as runtime scenery",
+  "authorization": "User authorized C01/C15 generations without credit cap; no repeat cost confirmation",
+  "model_cli_alias": "tripo-v3.1",
+  "model_wire_value": "v3.1-20260211",
+  "parameters": {
+    "geometry_quality": "detailed",
+    "texture_quality": "detailed",
+    "face_limit": 220000,
+    "texture": true,
+    "pbr": true
+  },
+  "calls": [
+    {
+      "asset_id": "riverfront_pavilion",
+      "task_id": "6e3d77fb-38b9-441e-8a02-d7e9060167e9",
+      "endpoint": "/v3/generation/text-to-model",
+      "status": "success",
+      "credits_consumed": 50,
+      "source_directory": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-pavilion-6e3d77fb",
+      "preview_review": "Standalone curved white civic building; glazing, mullions and balconies; no terrain or oversized baseplate"
+    },
+    {
+      "asset_id": "riverfront_tower",
+      "task_id": "54ca8435-ae66-450f-b528-60bdac019bf2",
+      "endpoint": "/v3/generation/text-to-model",
+      "status": "success",
+      "credits_consumed": 50,
+      "source_directory": "assets/source/tripo/C15/riverfront/tripo-out/c15-riverfront-tower-54ca8435",
+      "preview_review": "Standalone intact terraced glazed tower. Generated approximately 28 storeys rather than requested 14; proportions normalized to 20m width and 80m height for plausible floor heights"
+    }
+  ],
+  "credits_consumed_total": 100,
+  "balance_after": 13540,
+  "paid_processing_calls": 0,
+  "local_processing": "scripts/blender_c15_heroes.py",
+  "runtime_manifest": "content/scenes/C15_riverfront_assets.json",
+  "quality_boundary": "Tripo native 4K source maps preserved at LOD0; lower levels downsample genuine source maps. LOD3 uses source convex envelope and baked source diffuse atlas solely at distance. Native source is retained without changes. Cinema quality is evaluated in the integrated scene, not established by mesh counts alone."
+}

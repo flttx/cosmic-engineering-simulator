@@ -1,0 +1,166 @@
+{
+  "schema_version": "0.8",
+  "concept_id": "C01",
+  "implementation_status": "verified_local_prototype",
+  "source_pipeline": [
+    "Tripo",
+    "Blender",
+    "glTF/GLB",
+    "Three.js/R3F"
+  ],
+  "units": {
+    "physical_units": "not_fixed_for_concept_asset",
+    "render_units": "scene-local",
+    "note": "Do not present invented dimensions as scientific fact."
+  },
+  "source_assets": [
+    {
+      "asset_id": "collector_tripo_original",
+      "file": "assets/source/tripo/tripo-out/c01-collector-master-80e211fb/model.glb",
+      "role": "original high fidelity generator output",
+      "status": "ready",
+      "review_status": "pending"
+    },
+    {
+      "asset_id": "collector_blender_master",
+      "file": "assets/source/blender/C01/collector_master.blend",
+      "role": "editable high fidelity source with separated parts",
+      "status": "ready",
+      "review_status": "pending"
+    },
+    {
+      "asset_id": "maintenance_craft_master",
+      "file": "assets/source/blender/C01/collector_master.blend",
+      "role": "fixed-scale maintenance craft editable collection in shared Blender master",
+      "status": "ready"
+    }
+  ],
+  "runtime_assets": [
+    {
+      "asset_id": "collector_lod0",
+      "file": "public/assets/C01/collector_lod0.glb",
+      "usage": "focused close inspection",
+      "status": "ready",
+      "url": "/assets/C01/collector_lod0.glb",
+      "review_status": "pending",
+      "triangles": 62904,
+      "bytes": 3866756
+    },
+    {
+      "asset_id": "collector_lod1",
+      "file": "public/assets/C01/collector_lod1.glb",
+      "usage": "intermediate approach and fallback",
+      "status": "ready",
+      "url": "/assets/C01/collector_lod1.glb",
+      "review_status": "pending",
+      "triangles": 25125,
+      "bytes": 2345784
+    },
+    {
+      "asset_id": "collector_lod2",
+      "file": "public/assets/C01/collector_lod2.glb",
+      "usage": "low-detail asset and distant silhouette reference",
+      "status": "ready",
+      "url": "/assets/C01/collector_lod2.glb",
+      "review_status": "pending",
+      "triangles": 12059,
+      "bytes": 1579764
+    }
+  ],
+  "interactive_hierarchy": [
+    {
+      "object_id": "collector_hero",
+      "display_name": "采能卫星整机",
+      "required": true,
+      "part_of": null
+    },
+    {
+      "object_id": "collector_surface",
+      "display_name": "采能面板",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "support_truss",
+      "display_name": "承力桁架",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "radiator",
+      "display_name": "散热结构",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "attitude_module",
+      "display_name": "姿态控制模块",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "maintenance_dock",
+      "display_name": "维护接口",
+      "required": false,
+      "part_of": "collector_hero"
+    }
+  ],
+  "qa_gates": {
+    "A0": "reference silhouette, reference scale, industrial layout and visual intent reviewed",
+    "A1": "Tripo shape candidate without distortions or unwanted environment geometry",
+    "A2": "Blender repaired mesh, meaningful separated components and PBR",
+    "A3": "runtime LOD models, UV/bake checked, GLB browser export verified",
+    "A4": "clickable parts, stable selection across LOD, scene visual and performance reviews passed"
+  },
+  "review_views": [
+    "distant_swarm",
+    "maintenance_craft_scale_proof",
+    "close_front",
+    "close_rear",
+    "detail_part_and_exploded"
+  ],
+  "science_visual_disclaimer": "Illustrative engineered design; dimensions and unspecified internals are not established facts.",
+  "non_goals": [
+    "construction_mode",
+    "missions",
+    "economy",
+    "real time N-body simulation"
+  ],
+  "metadata_file": "public/assets/C01/asset_metadata.json",
+  "node_mapping": {
+    "collector_surface": "collector_surface",
+    "support_truss": "support_truss",
+    "radiator": "radiator",
+    "attitude_module": "attitude_module"
+  },
+  "focus_anchors": {
+    "collector_surface": [
+      0,
+      0,
+      -2.4
+    ],
+    "support_truss": [
+      0,
+      0,
+      0
+    ],
+    "radiator": [
+      0,
+      0.5,
+      2.4
+    ],
+    "attitude_module": [
+      4.6,
+      0,
+      0
+    ]
+  },
+  "qa_status": {
+    "source_export": "ready",
+    "browser_art_review": "reviewed_as_realistic_visual_prototype",
+    "A4": "verified_local_prototype",
+    "G2": "verified_local_prototype",
+    "G4": "verified_local_prototype",
+    "note": "2026-10-09 screenshot feedback reopened visual review. The independent verdict scored all five follow-up fixes resolved: observer-facing NASA/SDO snapshot projection, three distinguishable remote collector configurations, visible model-purpose explanation, mobile text size, and current source wording. This is a fix-list verdict, not user aesthetic acceptance or full photographic fidelity. Final interaction and stable RTX3050 evidence is recorded in PROGRESS.md."
+  }
+}

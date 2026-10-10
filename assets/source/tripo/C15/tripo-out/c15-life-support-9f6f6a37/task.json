@@ -1,0 +1,29 @@
+{
+  "task_id": "9f6f6a37-849c-4110-85aa-6ae4373c326e",
+  "type": "text_to_model",
+  "status": "success",
+  "input": {
+    "pbr": true,
+    "prompt": "Photorealistic compact industrial closed-loop water recycling and air processing service skid for an inhabited orbital habitat, three horizontal stainless steel cylindrical pressure tanks with rounded endcaps, distinct centrifugal pumps, blue and silver pipe manifolds connecting vessels, filtration cartridges, heat exchanger radiator, grated maintenance platform with safety railings and access steps, valve wheels and maintenance hatches, coherent engineered machinery with clear separate readable parts, metallic brushed steel white ceramic insulated ducts restrained orange service markings, detailed PBR weathering, no plants no buildings no greenhouse no text, standalone rectangular equipment platform flat base",
+    "texture": true,
+    "export_uv": true,
+    "model_version": "v3.1-20260211",
+    "texture_quality": "detailed",
+    "geometry_quality": "detailed",
+    "texture_alignment": "geometry"
+  },
+  "output_fields": [
+    "model_url",
+    "rendered_image_url",
+    "generated_image_url"
+  ],
+  "credits_consumed": 50,
+  "created_at": "2026-10-09T08:00:02.230221Z",
+  "completed_at": "2026-10-09T08:04:31.174532Z",
+  "files": [
+    "model.glb",
+    "rendered_image.webp",
+    "generated_image.jpeg",
+    "preview.png"
+  ]
+}

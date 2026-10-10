@@ -1,0 +1,96 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-10-09T09:21:10.921Z",
+  "comp": ".impeccable/mocks/C15-pc-A.png",
+  "direction": null,
+  "breakpoint": "1920x1080",
+  "artifact": "src/scene/HabitatScene.tsx",
+  "phase": "spec",
+  "phases": {
+    "comps": {
+      "status": "skipped",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [
+        {
+          "at": "2026-10-09T09:21:10.921Z",
+          "text": "started with an approved comp; the comp round happened before this state (surface round or manual)"
+        }
+      ],
+      "gate": null,
+      "forced": null
+    },
+    "spec": {
+      "status": "open",
+      "openedAt": "2026-10-09T09:21:10.921Z",
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [
+        {
+          "at": "2026-10-09T10:17:12.051Z",
+          "text": "Approved target A is binding visual direction for real interactive 3D. User explicitly requires Explore, free camera and real assets; static web plate workflow is inapplicable to scene canvas. Do not fabricate plate gates. Scene reproduction remains visually unpassed. PC only per user; mobile optimization deferred."
+        }
+      ],
+      "gate": null,
+      "forced": null
+    },
+    "plates": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "hero": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "sections": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "motion": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "responsive": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    },
+    "review": {
+      "status": "pending",
+      "openedAt": null,
+      "closedAt": null,
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": null,
+  "sessionId": "01a11e89-70a8-7912-8564-e13eb2b4470a"
+}

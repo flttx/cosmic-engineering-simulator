@@ -1,0 +1,115 @@
+{
+  "schema_version": "0.8",
+  "concept_id": "C01",
+  "implementation_status": "planned",
+  "source_pipeline": [
+    "Tripo",
+    "Blender",
+    "glTF/GLB",
+    "Three.js/R3F"
+  ],
+  "units": {
+    "physical_units": "not_fixed_for_concept_asset",
+    "render_units": "scene-local",
+    "note": "Do not present invented dimensions as scientific fact."
+  },
+  "source_assets": [
+    {
+      "asset_id": "collector_tripo_original",
+      "file": null,
+      "role": "original high fidelity generator output",
+      "status": "planned"
+    },
+    {
+      "asset_id": "collector_blender_master",
+      "file": null,
+      "role": "editable high fidelity source with separated parts",
+      "status": "planned"
+    },
+    {
+      "asset_id": "maintenance_craft_master",
+      "file": null,
+      "role": "optional size reference",
+      "status": "planned"
+    }
+  ],
+  "runtime_assets": [
+    {
+      "asset_id": "collector_lod0",
+      "file": null,
+      "usage": "focused close inspection",
+      "status": "planned"
+    },
+    {
+      "asset_id": "collector_lod1",
+      "file": null,
+      "usage": "intermediate approach and fallback",
+      "status": "planned"
+    },
+    {
+      "asset_id": "collector_lod2",
+      "file": null,
+      "usage": "InstancedMesh distant swarm",
+      "status": "planned"
+    }
+  ],
+  "interactive_hierarchy": [
+    {
+      "object_id": "collector_hero",
+      "display_name": "采能卫星整机",
+      "required": true,
+      "part_of": null
+    },
+    {
+      "object_id": "collector_surface",
+      "display_name": "采能面板",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "support_truss",
+      "display_name": "承力桁架",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "radiator",
+      "display_name": "散热结构",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "attitude_module",
+      "display_name": "姿态控制模块",
+      "required": true,
+      "part_of": "collector_hero"
+    },
+    {
+      "object_id": "maintenance_dock",
+      "display_name": "维护接口",
+      "required": false,
+      "part_of": "collector_hero"
+    }
+  ],
+  "qa_gates": {
+    "A0": "reference silhouette, reference scale, industrial layout and visual intent reviewed",
+    "A1": "Tripo shape candidate without distortions or unwanted environment geometry",
+    "A2": "Blender repaired mesh, meaningful separated components and PBR",
+    "A3": "runtime LOD models, UV/bake checked, GLB browser export verified",
+    "A4": "clickable parts, stable selection across LOD, scene visual and performance reviews passed"
+  },
+  "review_views": [
+    "distant_swarm",
+    "maintenance_craft_scale_proof",
+    "close_front",
+    "close_rear",
+    "detail_part_and_exploded"
+  ],
+  "science_visual_disclaimer": "Illustrative engineered design; dimensions and unspecified internals are not established facts.",
+  "non_goals": [
+    "construction_mode",
+    "missions",
+    "economy",
+    "real time N-body simulation"
+  ]
+}

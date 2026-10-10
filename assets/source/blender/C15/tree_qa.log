@@ -1,0 +1,8 @@
+16:42:47 | INFO: Data are loaded, start creating Blender stuff
+16:42:47 | INFO: Blender create Mesh node tripo_mesh_3372ce92-9b1c-47bc-8373-2363c7651abd.002
+16:42:47 | INFO: glTF import finished in 0.06s
+00:03.657  render           | Saved: 'E:\Projects\Cosmic Engineering Simulator\assets\source\blender\C15\review_tree_lod0.png'
+TREE_RUNTIME_QA {"meshes": 1, "materials": 1, "missingUV": [], "nonFiniteVertices": 0, "foliageSilhouette": "Tripo geometric leaf silhouettes, no source alpha cards"}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

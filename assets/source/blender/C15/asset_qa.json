@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "reports": [
+    {
+      "status": "passed",
+      "reports": [
+        {
+          "level": 0,
+          "triangles": 62904,
+          "bytes": 3866756,
+          "nodes": 16,
+          "meshes": 12,
+          "materials": 5,
+          "images": 9
+        },
+        {
+          "level": 1,
+          "triangles": 25125,
+          "bytes": 2345784,
+          "nodes": 16,
+          "meshes": 12,
+          "materials": 5,
+          "images": 9
+        },
+        {
+          "level": 2,
+          "triangles": 12059,
+          "bytes": 1579764,
+          "nodes": 16,
+          "meshes": 12,
+          "materials": 5,
+          "images": 9
+        }
+      ],
+      "craftDimensions": [
+        0.13333333929379787,
+        0.070416668150574,
+        0.18333333681027097
+      ]
+    },
+    {
+      "scene": "C15",
+      "status": "passed",
+      "reports": [
+        {
+          "file": "habitat.glb",
+          "triangles": 170594,
+          "bytes": 7705444,
+          "meshes": 27,
+          "images": 2
+        },
+        {
+          "file": "district_lod0.glb",
+          "triangles": 159999,
+          "bytes": 19029788,
+          "meshes": 1,
+          "images": 3
+        },
+        {
+          "file": "district_lod1.glb",
+          "triangles": 20000,
+          "bytes": 14461544,
+          "meshes": 1,
+          "images": 3
+        },
+        {
+          "file": "district_lod2.glb",
+          "triangles": 3500,
+          "bytes": 4291640,
+          "meshes": 1,
+          "images": 3
+        },
+        {
+          "file": "life_support_lod0.glb",
+          "triangles": 80000,
+          "bytes": 16550044,
+          "meshes": 1,
+          "images": 3
+        },
+        {
+          "file": "life_support_lod1.glb",
+          "triangles": 8000,
+          "bytes": 4326616,
+          "meshes": 1,
+          "images": 3
+        },
+        {
+          "file": "life_support_lod2.glb",
+          "triangles": 2000,
+          "bytes": 1298548,
+          "meshes": 1,
+          "images": 3
+        }
+      ]
+    }
+  ]
+}

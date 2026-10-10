@@ -1,0 +1,167 @@
+{
+  "schema_version": "0.8",
+  "concept_id": "C01",
+  "mode": "explore",
+  "implementation_status": "specification_only",
+  "render_space": "illustrative_scene_units",
+  "scale_notice": "天文空间和工程局部使用分层坐标，镜头比例仅用于示意，不直接对应物理长度",
+  "visual_intent": [
+    "cinematic",
+    "monumental_scale",
+    "credible_hard_scifi",
+    "industrial_structures",
+    "strong_silhouette"
+  ],
+  "camera_contract": {
+    "can_interrupt_all_presets": true,
+    "user_controls": [
+      "orbit",
+      "zoom",
+      "pan",
+      "focus",
+      "back",
+      "reset"
+    ],
+    "presets": [
+      {
+        "id": "system_reveal",
+        "role": "establishing",
+        "focus": "sun",
+        "cue": "恒星逆光下延伸到视野边缘的离散卫星群"
+      },
+      {
+        "id": "orbit_family",
+        "role": "structure_approach",
+        "focus": "orbit_family_north",
+        "cue": "多个独立轨道层与运动方向"
+      },
+      {
+        "id": "scale_proof",
+        "role": "monumental_flyby",
+        "focus": "collector_hero",
+        "cue": "维护艇与巨型采能翼同框；可拖拽接管镜头"
+      },
+      {
+        "id": "collector_inspect",
+        "role": "inspection",
+        "focus": "collector_hero",
+        "cue": "支撑桁架、面板、散热结构三部分清晰可辨"
+      }
+    ]
+  },
+  "object_hierarchy": [
+    {
+      "object_id": "sun",
+      "kind": "star",
+      "pickable": false
+    },
+    {
+      "object_id": "orbit_family_north",
+      "kind": "orbit_family",
+      "pickable": true
+    },
+    {
+      "object_id": "orbit_family_south",
+      "kind": "orbit_family",
+      "pickable": true
+    },
+    {
+      "object_id": "orbit_family_mid",
+      "kind": "orbit_family",
+      "pickable": true
+    },
+    {
+      "object_id": "collector_hero",
+      "kind": "collector_satellite",
+      "pickable": true,
+      "children": [
+        "collector_surface",
+        "support_truss",
+        "radiator",
+        "attitude_module"
+      ]
+    },
+    {
+      "object_id": "collector_surface",
+      "kind": "collector_component",
+      "pickable": true
+    },
+    {
+      "object_id": "support_truss",
+      "kind": "collector_component",
+      "pickable": true
+    },
+    {
+      "object_id": "radiator",
+      "kind": "collector_component",
+      "pickable": true
+    },
+    {
+      "object_id": "attitude_module",
+      "kind": "collector_component",
+      "pickable": true
+    },
+    {
+      "object_id": "maintenance_craft",
+      "kind": "illustrative_scale_anchor",
+      "pickable": false
+    }
+  ],
+  "presentation_layers": [
+    "orbits",
+    "energy_capture_illustration",
+    "waste_heat_illustration",
+    "earth_sightline_illustration",
+    "labels"
+  ],
+  "narration_topics": [
+    "what_is_swarm",
+    "satellite_structure",
+    "orbit_motion",
+    "planet_light",
+    "scientific_limits"
+  ],
+  "visual_requirements": {
+    "must_include_scale_reference": true,
+    "must_have_three_inspectable_parts": true,
+    "show_satellites_not_solid_shell": true,
+    "bloom_must_not_hide_geometry": true,
+    "require_visible_parallax": true,
+    "three_review_views": [
+      "system_reveal",
+      "scale_proof",
+      "collector_inspect"
+    ]
+  },
+  "out_of_scope": [
+    "placement",
+    "missions",
+    "materials",
+    "scoring",
+    "economy",
+    "engineering_optimizer",
+    "N_body_simulation"
+  ],
+  "development_gates": [
+    "G0_controls",
+    "G1_swarm_and_establishing",
+    "G2_Tripo_Blender_hero_asset",
+    "G3_narration_and_overlays",
+    "G4_art_and_performance_review"
+  ],
+  "asset_manifest": "C01_asset_manifest_v0.8.json",
+  "asset_delivery_policy": {
+    "source_pipeline": "tripo_blender",
+    "hi_res_inspection": "required",
+    "level_of_detail": [
+      "runtime_lod0",
+      "runtime_lod1",
+      "runtime_lod2_instanced"
+    ],
+    "preserve_source_blend": true,
+    "distance_swarm_source": "lod2_instances",
+    "sun": "procedural_shader",
+    "no_unoptimized_source_instancing": true,
+    "asset_status": "planned"
+  }
+}

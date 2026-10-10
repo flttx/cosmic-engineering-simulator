@@ -1,0 +1,260 @@
+{
+  "coordinateFrame": "Runtime +Y up, cylinder +Z; radius40 length240 illustrative units",
+  "sourceProject": "assets/source/blender/C15/habitat_master.blend",
+  "habitat": {
+    "file": "habitat.glb",
+    "triangles": 110570,
+    "bytes": 5703652,
+    "nodes": [
+      "shell_land_0",
+      "shell_window_0",
+      "ecology_ground",
+      "ecology_bank",
+      "ecology_water",
+      "ecology_road",
+      "ecology_agriculture",
+      "shell_frames",
+      "mirror",
+      "radiator",
+      "shell_land_1",
+      "shell_window_1",
+      "shell_land_2",
+      "shell_window_2",
+      "endcap_-120",
+      "docking_-120",
+      "docking_bearing_housing_-120",
+      "docking_bearing_seal_-120",
+      "docking_flange_-120",
+      "docking_inner_bearing_-120",
+      "docking_bearing_fasteners",
+      "docking_inspection_pods",
+      "docking_pod_supports",
+      "docking_service",
+      "docking_corridor_panels",
+      "endcap_spokes",
+      "endcap_rim",
+      "endcap_ring",
+      "endcap_outer_ring",
+      "endcap_120",
+      "docking_120",
+      "docking_bearing_housing_120",
+      "docking_bearing_seal_120",
+      "docking_flange_120",
+      "docking_inner_bearing_120",
+      "shell_rings",
+      "equipment_platform"
+    ]
+  },
+  "district": [
+    {
+      "file": "district_lod0.glb",
+      "triangles": 159999,
+      "bytes": 19029788,
+      "textureLimit": 4096
+    },
+    {
+      "file": "district_lod1.glb",
+      "triangles": 20000,
+      "bytes": 14461544,
+      "textureLimit": 2048
+    },
+    {
+      "file": "district_lod2.glb",
+      "triangles": 3500,
+      "bytes": 4291640,
+      "textureLimit": 1024
+    },
+    {
+      "file": "district_lod3.glb",
+      "triangles": 345,
+      "bytes": 1285152
+    }
+  ],
+  "qa": {
+    "missingUV": [],
+    "nonFiniteVertices": 0
+  },
+  "scientificBoundary": "Conceptual ONeill cylinder engineering illustration; radius40 length240 are rendering units, not measured or validated physical dimensions.",
+  "districtSource": "assets/source/tripo/C15/tripo-out/c15-ecology-district-c30d811b/model.glb",
+  "districtSourceTriangles": 1893735,
+  "districtSourceProject": "assets/source/blender/C15/district_master.blend",
+  "repairs": [
+    "Normalized centered-bottom pivot and Y-up export",
+    "Tripo source preserved untouched on disk",
+    "Runtime LOD copies decimated locally; embedded PBR textures preserved",
+    "District retained as one mesh with material primitives to limit draw calls"
+  ],
+  "districtBounds": {
+    "width": 10,
+    "depth": 5.491515378720133,
+    "height": 3.397142394322186
+  },
+  "life_support": [
+    {
+      "file": "life_support_lod0.glb",
+      "triangles": 80000,
+      "bytes": 16550044,
+      "textureLimit": 2048
+    },
+    {
+      "file": "life_support_lod1.glb",
+      "triangles": 8000,
+      "bytes": 4326616,
+      "textureLimit": 1024
+    },
+    {
+      "file": "life_support_lod2.glb",
+      "triangles": 2000,
+      "bytes": 1298548,
+      "textureLimit": 512
+    }
+  ],
+  "life_supportSource": "assets/source/tripo/C15/tripo-out/c15-life-support-9f6f6a37/model.glb",
+  "life_supportSourceTriangles": 1824336,
+  "life_supportSourceProject": "assets/source/blender/C15/life_support_master.blend",
+  "life_supportBounds": {
+    "width": 3.676517688336925,
+    "depth": 5,
+    "height": 3.357159602752169
+  },
+  "treeSourceTextures": [
+    {
+      "name": "Color_3372ce92-9b1c-47bc-8373-2363c7651abd",
+      "width": 4096,
+      "height": 4096
+    },
+    {
+      "name": "ORM_3372ce92-9b1c-47bc-8373-2363c7651abd",
+      "width": 4096,
+      "height": 4096
+    },
+    {
+      "name": "NormalGL_3372ce92-9b1c-47bc-8373-2363c7651abd",
+      "width": 4096,
+      "height": 4096
+    }
+  ],
+  "tree": [
+    {
+      "file": "tree_lod0.glb",
+      "triangles": 20000,
+      "bytes": 12105568,
+      "textureLimit": 2048
+    },
+    {
+      "file": "tree_lod1.glb",
+      "triangles": 5000,
+      "bytes": 3584544,
+      "textureLimit": 1024
+    },
+    {
+      "file": "tree_lod2.glb",
+      "triangles": 1000,
+      "bytes": 1014088,
+      "textureLimit": 512
+    },
+    {
+      "file": "tree_lod3.glb",
+      "triangles": 12,
+      "bytes": 2264548
+    }
+  ],
+  "treeSource": "assets/source/tripo/C15/tripo-out/c15-broadleaf-tree-3372ce92/model.glb",
+  "treeSourceTriangles": 1397864,
+  "treeSourceProject": "assets/source/blender/C15/tree_master.blend",
+  "treeBounds": {
+    "width": 1.2068374514579772,
+    "depth": 1.4,
+    "height": 1.8
+  },
+  "treeQA": {
+    "meshes": 1,
+    "materials": 1,
+    "missingUV": [],
+    "nonFiniteVertices": 0,
+    "foliageSilhouette": "Tripo geometric leaf silhouettes, no source alpha cards"
+  },
+  "riverfront_pavilion": [
+    {
+      "file": "riverfront_pavilion_lod0.glb",
+      "triangles": 199999,
+      "bytes": 14135384
+    },
+    {
+      "file": "riverfront_pavilion_lod1.glb",
+      "triangles": 19999,
+      "bytes": 3190824
+    },
+    {
+      "file": "riverfront_pavilion_lod2.glb",
+      "triangles": 2729,
+      "bytes": 991336
+    },
+    {
+      "file": "riverfront_pavilion_lod3.glb",
+      "triangles": 350,
+      "bytes": 373256
+    }
+  ],
+  "riverfront_tower": [
+    {
+      "file": "riverfront_tower_lod0.glb",
+      "triangles": 199999,
+      "bytes": 21244496
+    },
+    {
+      "file": "riverfront_tower_lod1.glb",
+      "triangles": 19997,
+      "bytes": 5712408
+    },
+    {
+      "file": "riverfront_tower_lod2.glb",
+      "triangles": 1996,
+      "bytes": 1881676
+    },
+    {
+      "file": "riverfront_tower_lod3.glb",
+      "triangles": 348,
+      "bytes": 450428
+    }
+  ],
+  "riverfront_environment": {
+    "file": "riverfront_environment.glb",
+    "triangles": 228370,
+    "bytes": 33368324
+  },
+  "riverfront_boat": [
+    {
+      "file": "riverfront_boat_lod0.glb",
+      "triangles": 60000,
+      "bytes": 8144216
+    },
+    {
+      "file": "riverfront_boat_lod1.glb",
+      "triangles": 10000,
+      "bytes": 2560484
+    },
+    {
+      "file": "riverfront_boat_lod2.glb",
+      "triangles": 1160,
+      "bytes": 893176
+    }
+  ],
+  "riverfront_bench": [
+    {
+      "file": "riverfront_bench_lod0.glb",
+      "triangles": 25000,
+      "bytes": 10566388
+    },
+    {
+      "file": "riverfront_bench_lod1.glb",
+      "triangles": 3000,
+      "bytes": 3397572
+    },
+    {
+      "file": "riverfront_bench_lod2.glb",
+      "triangles": 1242,
+      "bytes": 1189844
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+E:\Projects\Cosmic Engineering Simulator\scripts\blender_c15.py:23: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+INFO Draco is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+16:18:48 | INFO: Starting glTF 2.0 export
+16:18:48 | INFO: Extracting primitive: docking_120
+16:18:48 | INFO: Primitives created: 1
+16:18:48 | INFO: Extracting primitive: docking_-120
+16:18:48 | INFO: Primitives created: 1
+16:18:48 | INFO: Extracting primitive: docking_service_-120_0
+16:18:48 | INFO: Primitives created: 1
+16:18:48 | INFO: Extracting primitive: ecology_agriculture_0_0
+16:18:48 | INFO: Primitives created: 1
+16:18:48 | INFO: Extracting primitive: ecology_bank_0
+16:18:48 | INFO: Primitives created: 1
+16:18:48 | INFO: Extracting primitive: ecology_forest_0
+16:18:49 | INFO: Primitives created: 2
+16:18:49 | INFO: Extracting primitive: ecology_ground_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: ecology_road_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: ecology_trunk_0_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: ecology_water_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: endcap_120
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: endcap_-120
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: endcap_outer_ring_-120
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: endcap_rim_-120_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: endcap_ring_-120
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: endcap_spoke_-120_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: life_support_deck
+16:18:49 | INFO: Primitives created: 3
+16:18:49 | INFO: Extracting primitive: mirror_facet_0_-1_0_0
+16:18:49 | INFO: Primitives created: 2
+16:18:49 | INFO: Extracting primitive: radiator_0
+16:18:49 | INFO: Primitives created: 2
+16:18:49 | INFO: Extracting primitive: shell_frame_0_-0.5235987755982988
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: shell_land_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: shell_land_1
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: shell_land_2
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: shell_ring_-120
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: shell_window_0
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: shell_window_1
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Extracting primitive: shell_window_2
+16:18:49 | INFO: Primitives created: 1
+16:18:49 | INFO: Finished glTF 2.0 export in 0.24759149551391602 s
+00:05.265  render           | Saved: 'E:\Projects\Cosmic Engineering Simulator\assets\source\blender\C15\review_exterior.png'
+00:05.265  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Dots Stroke' 的相对路径
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:05.265  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Material' 的相对路径
+
+信息: 已另存为 "habitat_master.blend"
+16:18:51 | INFO: Data are loaded, start creating Blender stuff
+16:18:51 | INFO: Blender create Mesh node tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9
+16:18:58 | INFO: glTF import finished in 6.25s
+信息: 已另存为 "district_master.blend"
+16:19:38 | INFO: Starting glTF 2.0 export
+16:19:38 | INFO: Extracting primitive: tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9.002
+16:19:38 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:19:39 | INFO: Primitives created: 1
+16:19:39 | INFO: Finished glTF 2.0 export in 0.35678648948669434 s
+
+16:20:15 | INFO: Starting glTF 2.0 export
+16:20:15 | INFO: Extracting primitive: tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9.003
+16:20:15 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:20:15 | INFO: Primitives created: 1
+16:20:15 | INFO: Finished glTF 2.0 export in 0.09580445289611816 s
+
+16:20:49 | INFO: Starting glTF 2.0 export
+16:20:50 | INFO: Extracting primitive: tripo_mesh_c30d811b-06f1-48bf-8157-523f3cbce4b9.004
+16:20:50 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:20:50 | INFO: Primitives created: 1
+16:20:50 | INFO: Finished glTF 2.0 export in 0.0288236141204834 s
+
+16:20:50 | INFO: Data are loaded, start creating Blender stuff
+16:20:50 | INFO: Blender create Mesh node tripo_mesh_9f6f6a37-849c-4110-85aa-6ae4373c326e
+16:20:56 | INFO: glTF import finished in 6.42s
+信息: 已另存为 "life_support_master.blend"
+16:21:40 | INFO: Starting glTF 2.0 export
+16:21:40 | INFO: Extracting primitive: tripo_mesh_9f6f6a37-849c-4110-85aa-6ae4373c326e.002
+16:21:40 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:21:40 | INFO: Primitives created: 1
+16:21:40 | INFO: Finished glTF 2.0 export in 0.2121715545654297 s
+
+16:22:14 | INFO: Starting glTF 2.0 export
+16:22:14 | INFO: Extracting primitive: tripo_mesh_9f6f6a37-849c-4110-85aa-6ae4373c326e.003
+16:22:14 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:14 | INFO: Primitives created: 1
+16:22:14 | INFO: Finished glTF 2.0 export in 0.03454947471618652 s
+
+16:22:44 | INFO: Starting glTF 2.0 export
+16:22:44 | INFO: Extracting primitive: tripo_mesh_9f6f6a37-849c-4110-85aa-6ae4373c326e.004
+16:22:44 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+16:22:44 | INFO: Primitives created: 1
+16:22:44 | INFO: Finished glTF 2.0 export in 0.009629487991333008 s
+
+C15_ASSET_COMPLETE {"coordinateFrame": "Runtime +Y up, cylinder +Z; radius40 length240 illustrative units", "sourceProject": "assets/source/blender/C15/habitat_master.blend", "habitat": {"file": "habitat.glb", "triangles": 211502, "bytes": 8735788, "nodes": ["shell_land_0", "shell_window_0", "ecology_ground", "ecology_bank", "ecology_water", "ecology_road", "ecology_agriculture", "ecology_trunk", "ecology_forest", "shell_frames", "mirror", "radiator", "shell_land_1", "shell_window_1", "shell_land_2", "shell_window_2", "endcap_-120", "docking_-120", "endcap_spokes", "endcap_rim", "docking_service", "endcap_ring", "endcap_outer_ring", "endcap_120", "docking_120", "shell_rings", "life_support"]}, "district": [{"file": "district_lod0.glb", "triangles": 159999, "bytes": 19029788}, {"file": "district_lod1.glb", "triangles": 20000, "bytes": 14461544}, {"file": "district_lod2.glb", "triangles": 3500, "bytes": 4291640}], "qa": {"missingUV": [], "nonFiniteVertices": 0}, "scientificBoundary": "Conceptual ONeill cylinder engineering illustration; radius40 length240 are rendering units, not measured or validated physical dimensions.", "districtSource": "assets/source/tripo/C15/tripo-out/c15-ecology-district-c30d811b/model.glb", "districtSourceTriangles": 1893735, "districtSourceProject": "assets/source/blender/C15/district_master.blend", "repairs": ["Normalized centered-bottom pivot and Y-up export", "Tripo source preserved untouched on disk", "Runtime LOD copies decimated locally; embedded PBR textures preserved", "District retained as one mesh with material primitives to limit draw calls"], "districtBounds": {"width": 10.0, "depth": 5.491515378720133, "height": 3.397142394322186}, "life_support": [{"file": "life_support_lod0.glb", "triangles": 80000, "bytes": 16550044}, {"file": "life_support_lod1.glb", "triangles": 8000, "bytes": 4326616}, {"file": "life_support_lod2.glb", "triangles": 2000, "bytes": 1298548}], "life_supportSource": "assets/source/tripo/C15/tripo-out/c15-life-support-9f6f6a37/model.glb", "life_supportSourceTriangles": 1824336, "life_supportSourceProject": "assets/source/blender/C15/life_support_master.blend", "life_supportBounds": {"width": 3.676517688336925, "depth": 5.0, "height": 3.357159602752169}}
+
+Blender quit

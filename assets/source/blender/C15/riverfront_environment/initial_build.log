@@ -1,0 +1,70 @@
+E:\Projects\Cosmic Engineering Simulator\scripts\blender_c15_riverfront.py:69: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+00:07.234  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Dots Stroke' 的相对路径
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+00:07.234  reports          | WARNING 路径 'D:\Program Files\Blender Foundation\Blender 5.2\5.2\datafiles\assets\brushes\essentials_brushes-gp_draw.blend' 不能成为 Material 'Material' 的相对路径
+信息: 已另存为 "riverfront_master.blend"
+INFO Draco is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+17:33:12 | INFO: Starting glTF 2.0 export
+17:33:12 | INFO: Extracting primitive: bridge_0
+17:33:12 | INFO: Primitives created: 3
+17:33:12 | INFO: Extracting primitive: bridge_1
+17:33:12 | INFO: Primitives created: 3
+17:33:12 | INFO: Extracting primitive: bridge_2
+17:33:12 | INFO: Primitives created: 3
+17:33:12 | INFO: Extracting primitive: embankment_0
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: embankment_1
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: embankment_2
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: glass_segments_0
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: glass_segments_1
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: glass_segments_2
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: river_0
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: river_1
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: river_2
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: rocks_0
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: rocks_1
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: rocks_2
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: terrain_0
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: terrain_1
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: terrain_2
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: walkway_0
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: walkway_1
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: walkway_2
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: walkway_hero_joints
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: walkway_hero_lights
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: walkway_hero_plaza
+17:33:12 | INFO: Primitives created: 2
+17:33:12 | INFO: Extracting primitive: walkway_hero_rails
+17:33:12 | INFO: Primitives created: 1
+17:33:12 | INFO: Extracting primitive: window_frame_0
+17:33:12 | INFO: Primitives created: 2
+17:33:12 | INFO: Extracting primitive: window_frame_1
+17:33:12 | INFO: Primitives created: 2
+17:33:12 | INFO: Extracting primitive: window_frame_2
+17:33:12 | INFO: Primitives created: 2
+17:33:12 | INFO: Finished glTF 2.0 export in 0.4041135311126709 s
+
+RIVERFRONT_COMPLETE {"triangles": 207024, "meshCount": 28, "materialCount": 10, "drawCallPrimitives": 38, "missingUV": 0, "nonFiniteVertices": 0, "bytes": 11089276, "checks": ["river at z=-40 is 62m wide", "hero terrace graded to radius39.38", "continuous three land belts and winding waterways", "geometric near bridge piers/arch/deck/railing", "12 editable PBR raster maps packed into source and GLB"], "previewStatus": "pending_render"}
+
+Blender quit

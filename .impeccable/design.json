@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T07:23:47.924Z",
+  "title": "Design System: 宇宙工程探索馆",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "深空底色",
+        "tonalRamp": [
+          "oklch(15% 0.01462 257.65)",
+          "oklch(26.4% 0.01462 257.65)",
+          "oklch(37.9% 0.01462 257.65)",
+          "oklch(49.3% 0.01462 257.65)",
+          "oklch(60.7% 0.01462 257.65)",
+          "oklch(72.1% 0.01462 257.65)",
+          "oklch(83.6% 0.01462 257.65)",
+          "oklch(95% 0.01462 257.65)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "深蓝信息面",
+        "tonalRamp": [
+          "oklch(15% 0.01863 255.74)",
+          "oklch(26.4% 0.01863 255.74)",
+          "oklch(37.9% 0.01863 255.74)",
+          "oklch(49.3% 0.01863 255.74)",
+          "oklch(60.7% 0.01863 255.74)",
+          "oklch(72.1% 0.01863 255.74)",
+          "oklch(83.6% 0.01863 255.74)",
+          "oklch(95% 0.01863 255.74)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "正文",
+        "tonalRamp": [
+          "oklch(15% 0.00346 247.86)",
+          "oklch(26.4% 0.00346 247.86)",
+          "oklch(37.9% 0.00346 247.86)",
+          "oklch(49.3% 0.00346 247.86)",
+          "oklch(60.7% 0.00346 247.86)",
+          "oklch(72.1% 0.00346 247.86)",
+          "oklch(83.6% 0.00346 247.86)",
+          "oklch(95% 0.00346 247.86)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "辅助文字",
+        "tonalRamp": [
+          "oklch(15% 0.02300 250.28)",
+          "oklch(26.4% 0.02300 250.28)",
+          "oklch(37.9% 0.02300 250.28)",
+          "oklch(49.3% 0.02300 250.28)",
+          "oklch(60.7% 0.02300 250.28)",
+          "oklch(72.1% 0.02300 250.28)",
+          "oklch(83.6% 0.02300 250.28)",
+          "oklch(95% 0.02300 250.28)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "细边界",
+        "tonalRamp": [
+          "oklch(15% 0.02246 256.40)",
+          "oklch(26.4% 0.02246 256.40)",
+          "oklch(37.9% 0.02246 256.40)",
+          "oklch(49.3% 0.02246 256.40)",
+          "oklch(60.7% 0.02246 256.40)",
+          "oklch(72.1% 0.02246 256.40)",
+          "oklch(83.6% 0.02246 256.40)",
+          "oklch(95% 0.02246 256.40)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "暖金操作色",
+        "tonalRamp": [
+          "oklch(15% 0.09175 73.50)",
+          "oklch(26.4% 0.09175 73.50)",
+          "oklch(37.9% 0.09175 73.50)",
+          "oklch(49.3% 0.09175 73.50)",
+          "oklch(60.7% 0.09175 73.50)",
+          "oklch(72.1% 0.09175 73.50)",
+          "oklch(83.6% 0.09175 73.50)",
+          "oklch(95% 0.09175 73.50)"
+        ]
+      },
+      "inspector": {
+        "role": "neutral",
+        "displayName": "inspector",
+        "tonalRamp": [
+          "oklch(15% 0.01920 252.10 / 0.96863)",
+          "oklch(26.4% 0.01920 252.10 / 0.96863)",
+          "oklch(37.9% 0.01920 252.10 / 0.96863)",
+          "oklch(49.3% 0.01920 252.10 / 0.96863)",
+          "oklch(60.7% 0.01920 252.10 / 0.96863)",
+          "oklch(72.1% 0.01920 252.10 / 0.96863)",
+          "oklch(83.6% 0.01920 252.10 / 0.96863)",
+          "oklch(95% 0.01920 252.10 / 0.96863)"
+        ]
+      },
+      "explanation": {
+        "role": "neutral",
+        "displayName": "explanation",
+        "tonalRamp": [
+          "oklch(15% 0.01564 241.81)",
+          "oklch(26.4% 0.01564 241.81)",
+          "oklch(37.9% 0.01564 241.81)",
+          "oklch(49.3% 0.01564 241.81)",
+          "oklch(60.7% 0.01564 241.81)",
+          "oklch(72.1% 0.01564 241.81)",
+          "oklch(83.6% 0.01564 241.81)",
+          "oklch(95% 0.01564 241.81)"
+        ]
+      },
+      "focus-surface": {
+        "role": "neutral",
+        "displayName": "focus-surface",
+        "tonalRamp": [
+          "oklch(15% 0.09175 73.50 / 0.03529)",
+          "oklch(26.4% 0.09175 73.50 / 0.03529)",
+          "oklch(37.9% 0.09175 73.50 / 0.03529)",
+          "oklch(49.3% 0.09175 73.50 / 0.03529)",
+          "oklch(60.7% 0.09175 73.50 / 0.03529)",
+          "oklch(72.1% 0.09175 73.50 / 0.03529)",
+          "oklch(83.6% 0.09175 73.50 / 0.03529)",
+          "oklch(95% 0.09175 73.50 / 0.03529)"
+        ]
+      },
+      "toolbar-surface": {
+        "role": "neutral",
+        "displayName": "底部工具条",
+        "tonalRamp": [
+          "oklch(15% 0.01863 255.74 / 0.94902)",
+          "oklch(26.4% 0.01863 255.74 / 0.94902)",
+          "oklch(37.9% 0.01863 255.74 / 0.94902)",
+          "oklch(49.3% 0.01863 255.74 / 0.94902)",
+          "oklch(60.7% 0.01863 255.74 / 0.94902)",
+          "oklch(72.1% 0.01863 255.74 / 0.94902)",
+          "oklch(83.6% 0.01863 255.74 / 0.94902)",
+          "oklch(95% 0.01863 255.74 / 0.94902)"
+        ]
+      },
+      "tool-active": {
+        "role": "neutral",
+        "displayName": "展开工具状态",
+        "tonalRamp": [
+          "oklch(15% 0.02400 256.44)",
+          "oklch(26.4% 0.02400 256.44)",
+          "oklch(37.9% 0.02400 256.44)",
+          "oklch(49.3% 0.02400 256.44)",
+          "oklch(60.7% 0.02400 256.44)",
+          "oklch(72.1% 0.02400 256.44)",
+          "oklch(83.6% 0.02400 256.44)",
+          "oklch(95% 0.02400 256.44)"
+        ]
+      },
+      "view-active": {
+        "role": "neutral",
+        "displayName": "当前构图底色",
+        "tonalRamp": [
+          "oklch(15% 0.01156 248.23)",
+          "oklch(26.4% 0.01156 248.23)",
+          "oklch(37.9% 0.01156 248.23)",
+          "oklch(49.3% 0.01156 248.23)",
+          "oklch(60.7% 0.01156 248.23)",
+          "oklch(72.1% 0.01156 248.23)",
+          "oklch(83.6% 0.01156 248.23)",
+          "oklch(95% 0.01156 248.23)"
+        ]
+      },
+      "field-surface": {
+        "role": "neutral",
+        "displayName": "field-surface",
+        "tonalRamp": [
+          "oklch(15% 0.02160 255.00)",
+          "oklch(26.4% 0.02160 255.00)",
+          "oklch(37.9% 0.02160 255.00)",
+          "oklch(49.3% 0.02160 255.00)",
+          "oklch(60.7% 0.02160 255.00)",
+          "oklch(72.1% 0.02160 255.00)",
+          "oklch(83.6% 0.02160 255.00)",
+          "oklch(95% 0.02160 255.00)"
+        ]
+      },
+      "structure-surface": {
+        "role": "neutral",
+        "displayName": "structure-surface",
+        "tonalRamp": [
+          "oklch(15% 0.01854 248.55)",
+          "oklch(26.4% 0.01854 248.55)",
+          "oklch(37.9% 0.01854 248.55)",
+          "oklch(49.3% 0.01854 248.55)",
+          "oklch(60.7% 0.01854 248.55)",
+          "oklch(72.1% 0.01854 248.55)",
+          "oklch(83.6% 0.01854 248.55)",
+          "oklch(95% 0.01854 248.55)"
+        ]
+      },
+      "structure-active": {
+        "role": "neutral",
+        "displayName": "structure-active",
+        "tonalRamp": [
+          "oklch(15% 0.02114 245.70)",
+          "oklch(26.4% 0.02114 245.70)",
+          "oklch(37.9% 0.02114 245.70)",
+          "oklch(49.3% 0.02114 245.70)",
+          "oklch(60.7% 0.02114 245.70)",
+          "oklch(72.1% 0.02114 245.70)",
+          "oklch(83.6% 0.02114 245.70)",
+          "oklch(95% 0.02114 245.70)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "场景标题",
+        "purpose": "观察区域左侧主标题。"
+      },
+      "title": {
+        "displayName": "对象标题",
+        "purpose": "信息面板内的对象名称。"
+      },
+      "body": {
+        "displayName": "讲解正文",
+        "purpose": "对象说明与教学讲解。"
+      },
+      "label": {
+        "displayName": "操作标签",
+        "purpose": "来源、工具入口与状态提示。"
+      },
+      "brand": {
+        "displayName": "品牌",
+        "purpose": "顶部中文品牌名。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "scene-text-contour",
+        "value": "drop-shadow(0 2px 3px #000)",
+        "purpose": "场景标题、品牌与面包屑的filter轮廓阴影；非面板box-shadow。"
+      }
+    ],
+    "motion": [],
+    "breakpoints": [
+      {
+        "name": "compact-max",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "700px"
+      },
+      {
+        "name": "narrow-max",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "聚焦按钮",
+      "kind": "button",
+      "refersTo": "button-focus",
+      "description": "信息面内的聚焦操作。",
+      "html": "<button class=\"ds-focus\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M4 9V4h5m6 0h5v5m0 6v5h-5M9 20H4v-5\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg>聚焦此对象</button>",
+      "css": ".ds-focus{font-family:Barlow,\"Microsoft YaHei\",sans-serif;display:flex;align-items:center;justify-content:center;gap:9px;width:100%;min-height:40px;border:1px solid #7a6244;border-radius:5px;background:#e9bc8109;color:var(--accent,#e9bc81);padding:10px;font-size:12px;cursor:pointer}.ds-focus:hover:not(:disabled){color:var(--accent,#e9bc81)}.ds-focus:focus-visible{outline-offset:4px;outline:2px solid var(--accent,#e9bc81);}.ds-focus:disabled{border-color:#38424b;color:#a5b1bd;cursor:default}"
+    },
+    {
+      "name": "图标按钮",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "顶部与底部工具的图标操作。",
+      "html": "<button class=\"ds-icon\" aria-label=\"聚焦\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M4 9V4h5m6 0h5v5m0 6v5h-5M9 20H4v-5\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></svg></button>",
+      "css": ".ds-icon{font-family:Barlow,\"Microsoft YaHei\",sans-serif;display:inline-flex;align-items:center;justify-content:center;height:40px;width:40px;border:0;border-radius:6px;background:none;color:#e5e7e9;cursor:pointer}.ds-icon:hover{background:#ffffff09;color:var(--accent,#e9bc81)}.ds-icon:focus-visible{outline-offset:4px;outline:2px solid var(--accent,#e9bc81);}@media(max-width:700px){.ds-icon{width:36px}}"
+    },
+    {
+      "name": "教学图层列表",
+      "kind": "custom",
+      "refersTo": "layer-option",
+      "description": "展开工具面后的纵向图层开关。",
+      "html": "<div class=\"ds-layers\" aria-label=\"教学图层\"><button aria-pressed=\"false\"><span>轨道路径</span><span class=\"ds-layer-state\" aria-hidden=\"true\">关闭</span></button><button aria-pressed=\"true\"><span>能量采集</span><span class=\"ds-layer-state\" aria-hidden=\"true\">开启</span></button></div>",
+      "css": ".ds-layers{font-family:Barlow,\"Microsoft YaHei\",sans-serif;display:flex;flex-direction:column;background:#111820f7;color:#e5e7e9;padding:20px;border:1px solid var(--line,#2d3540);border-radius:10px;width:336px}.ds-layers button{font-family:Barlow,\"Microsoft YaHei\",sans-serif;display:flex;align-items:center;justify-content:space-between;min-height:46px;padding:10px 0;border:0;border-bottom:1px solid #ffffff10;background:none;color:inherit;font-size:13px;text-align:left;cursor:pointer}.ds-layers button:last-child{border:0}.ds-layer-state{font-size:11px;color:var(--muted,#a6b2bf)}.ds-layers button[aria-pressed=true],.ds-layers button[aria-pressed=true] .ds-layer-state,.ds-layers button:hover{color:var(--accent,#e9bc81)}.ds-layers button:focus-visible{outline-offset:4px;outline:2px solid var(--accent,#e9bc81);}@media(max-width:1000px){.ds-layers{width:320px}}@media(max-width:700px){.ds-layers{width:calc(100% - 36px);max-width:340px}}"
+    },
+    {
+      "name": "对象检查面",
+      "kind": "card",
+      "refersTo": "inspector",
+      "description": "按需展开的检查面，正文区独立滚动。",
+      "html": "<aside class=\"ds-inspector\" aria-label=\"对象与讲解\"><div class=\"ds-panel-tabs\"><button aria-pressed=\"true\">观察对象</button><button aria-pressed=\"false\">原理讲解</button></div><div class=\"ds-panel-body\"><h2>采能卫星</h2><p>工程结构与尺寸为概念化设计。</p></div></aside>",
+      "css": ".ds-inspector{font-family:Barlow,\"Microsoft YaHei\",sans-serif;width:336px;background:#111820f7;border:1px solid var(--line,#2d3540);border-radius:10px;color:#e5e7e9;overflow:hidden;max-height:calc(100dvh - 218px)}.ds-panel-tabs{display:flex;border-bottom:1px solid var(--line,#2d3540);padding:5px 12px}.ds-panel-tabs button{font-family:Barlow,\"Microsoft YaHei\",sans-serif;background:none;border:0;min-height:40px;padding:12px 10px;font-size:12px;color:#b4c0cb;cursor:pointer}.ds-panel-tabs button[aria-pressed=true],.ds-panel-tabs button:hover{color:var(--accent,#e9bc81)}.ds-panel-tabs button:focus-visible{outline-offset:4px;outline:2px solid var(--accent,#e9bc81);}.ds-panel-body{padding:22px;overflow-y:auto;max-height:calc(100dvh - 274px)}.ds-panel-body h2{font-size:18px;line-height:1.5;font-weight:500;margin:0}.ds-panel-body p{font-size:13px;line-height:1.9;color:#c3cdd5}@media(max-width:1000px){.ds-inspector{width:320px}}@media(max-width:700px){.ds-inspector{width:calc(100% - 36px);max-width:340px;max-height:calc(100dvh - 234px)}.ds-panel-body{padding:18px;max-height:calc(100dvh - 292px)}.ds-panel-body p{font-size:12px}}"
+    },
+    {
+      "name": "画质选择",
+      "kind": "input",
+      "refersTo": "quality-select",
+      "description": "设置面内的原生选择框。",
+      "html": "<label class=\"ds-quality\">画质 <select aria-label=\"画质\"><option>标准</option><option>低负载</option></select></label>",
+      "css": ".ds-quality{font-family:Barlow,\"Microsoft YaHei\",sans-serif;font-size:12px;display:flex;align-items:center;justify-content:space-between;gap:15px;color:#e5e7e9}.ds-quality select{font-family:Barlow,\"Microsoft YaHei\",sans-serif;color:#e5e7e9;padding:8px;min-height:36px;background:#0b121b;border:1px solid #4d5a67;border-radius:4px}.ds-quality select:focus-visible{outline-offset:4px;outline:2px solid var(--accent,#e9bc81);}"
+    },
+    {
+      "name": "观察构图分段栏",
+      "kind": "nav",
+      "refersTo": "view",
+      "description": "底部工具条中的三种构图。",
+      "html": "<nav class=\"ds-nav\" aria-label=\"观察构图\"><button aria-pressed=\"true\">恒星系全景</button><button aria-pressed=\"false\">巨构掠过</button><button aria-pressed=\"false\">单体检查</button></nav>",
+      "css": ".ds-nav{font-family:Barlow,\"Microsoft YaHei\",sans-serif;display:flex;gap:3px;padding:5px;background:#10161ef2;border:1px solid #36414c;border-radius:10px;max-width:calc(100% - 36px)}.ds-nav button{font-family:Barlow,\"Microsoft YaHei\",sans-serif;display:flex;align-items:center;justify-content:center;gap:8px;border:0;background:none;font-size:13px;color:#b9c5d0;padding:9px 15px;min-height:44px;border-radius:6px;white-space:nowrap;cursor:pointer}.ds-nav button[aria-pressed=true]{color:var(--accent,#e9bc81);background:#272c31}.ds-nav button:hover{color:var(--accent,#e9bc81)}.ds-nav button:focus-visible{outline-offset:4px;outline:2px solid var(--accent,#e9bc81);}@media(max-width:700px){.ds-nav{gap:2px}.ds-nav button{flex:1;min-width:0;font-size:12px;padding:9px 5px;gap:6px}}@media(max-width:360px){.ds-nav button{font-size:11px;gap:4px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "宇宙工程观察窗",
+    "overview": "沿用用户批准的 v0.8 方向：偏写实、克制的硬科幻工业结构。宏大尺度、空间结构、工业细节和稳定尺度参照提供体验；界面以低亮度信息面和精简文字附着在观察区域边缘。\n\n中文信息优先。深色背景延续宇宙环境，暖金色负责选中、聚焦和操作反馈。文档记录当前实现的视觉规范，不代表近景资产、美术、性能或完整视觉验收已通过。",
+    "keyCharacteristics": [
+      "真实三维场景主导视野。",
+      "深色信息面、细边界和小圆角。",
+      "单一暖色表达选择与操作状态。",
+      "讲解、科学边界和教学比例明确可见。"
+    ],
+    "rules": [
+      {
+        "name": "The Selection Signal Rule",
+        "body": "暖金色优先用于可操作和已选中的语义，同一状态在导航、图层和对象检查中保持一致。",
+        "section": "colors"
+      },
+      {
+        "name": "The Scene Leads Rule",
+        "body": "空间深度由三维结构、光照和视差承担；界面层次只帮助阅读与操作，不替代场景的尺度感。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 让真实三维结构、视差和尺度参照主导体验。",
+      "**Do** 复用现有字体、暖金状态色、暗色信息面和细边界。",
+      "**Do** 为按钮和字段提供名称、键盘操作与可见焦点。",
+      "**Do** 保留中文科学边界、教学比例和真实加载状态。"
+    ],
+    "donts": [
+      "**Don't** 用真空浓雾、装饰性发光或大型界面装饰替代结构与尺度感。",
+      "**Don't** 将未验收的模型、美术或运行测量描述成已通过。",
+      "**Don't** 添加建造、资源、经济、评分、解锁或任务入口。",
+      "**Don't** 隐藏失败状态、键盘焦点或界面恢复入口。"
+    ]
+  }
+}

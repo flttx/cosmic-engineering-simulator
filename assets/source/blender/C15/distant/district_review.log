@@ -1,0 +1,6 @@
+00:00.484  blend            | Read blend: "E:\Projects\Cosmic Engineering Simulator\assets\source\blender\C15\distant\district_lod3.blend"
+<string>:1: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+00:03.328  render           | Saved: 'E:\Projects\Cosmic Engineering Simulator\assets\source\blender\C15\distant\district_review.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

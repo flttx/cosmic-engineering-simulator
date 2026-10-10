@@ -1,0 +1,486 @@
+{
+  "schema_version": "0.8",
+  "concept_id": "C01",
+  "mode": "explore",
+  "implementation_status": "verified_local_prototype",
+  "render_space": "illustrative_scene_units",
+  "scale_notice": "天文空间和工程局部使用分层坐标，镜头比例仅用于示意，不直接对应物理长度",
+  "visual_intent": [
+    "cinematic",
+    "monumental_scale",
+    "credible_hard_scifi",
+    "industrial_structures",
+    "strong_silhouette"
+  ],
+  "camera_contract": {
+    "can_interrupt_all_presets": true,
+    "user_controls": [
+      "orbit",
+      "zoom",
+      "pan",
+      "focus",
+      "back",
+      "reset"
+    ],
+    "presets": [
+      {
+        "id": "system_reveal",
+        "role": "establishing",
+        "focus": "sun",
+        "cue": "恒星逆光下延伸到视野边缘的离散卫星群"
+      },
+      {
+        "id": "orbit_family",
+        "role": "structure_approach",
+        "focus": "orbit_family_north",
+        "cue": "多个独立轨道层与运动方向"
+      },
+      {
+        "id": "scale_proof",
+        "role": "monumental_flyby",
+        "focus": "collector_hero",
+        "cue": "维护艇与巨型采能翼同框；可拖拽接管镜头"
+      },
+      {
+        "id": "collector_inspect",
+        "role": "inspection",
+        "focus": "collector_hero",
+        "cue": "支撑桁架、面板、散热结构三部分清晰可辨"
+      }
+    ]
+  },
+  "object_hierarchy": [
+    {
+      "object_id": "sun",
+      "kind": "system",
+      "parent": null,
+      "pickable": false
+    },
+    {
+      "object_id": "orbit_family_north",
+      "kind": "group",
+      "parent": "sun",
+      "pickable": true
+    },
+    {
+      "object_id": "orbit_family_south",
+      "kind": "group",
+      "parent": "sun",
+      "pickable": true
+    },
+    {
+      "object_id": "orbit_family_mid",
+      "kind": "group",
+      "parent": "sun",
+      "pickable": true
+    },
+    {
+      "object_id": "collector_hero",
+      "kind": "entity",
+      "parent": "orbit_family_mid",
+      "pickable": true
+    },
+    {
+      "object_id": "collector_north_001",
+      "kind": "entity",
+      "parent": "orbit_family_north",
+      "pickable": true
+    },
+    {
+      "object_id": "collector_south_001",
+      "kind": "entity",
+      "parent": "orbit_family_south",
+      "pickable": true
+    },
+    {
+      "object_id": "collector_mid_001",
+      "kind": "entity",
+      "parent": "orbit_family_mid",
+      "pickable": true
+    },
+    {
+      "object_id": "collector_surface",
+      "kind": "component",
+      "parent": "collector_hero",
+      "pickable": true
+    },
+    {
+      "object_id": "support_truss",
+      "kind": "component",
+      "parent": "collector_hero",
+      "pickable": true
+    },
+    {
+      "object_id": "radiator",
+      "kind": "component",
+      "parent": "collector_hero",
+      "pickable": true
+    },
+    {
+      "object_id": "attitude_module",
+      "kind": "component",
+      "parent": "collector_hero",
+      "pickable": true
+    }
+  ],
+  "presentation_layers": [
+    "orbits",
+    "energy_capture_illustration",
+    "waste_heat_illustration",
+    "earth_sightline_illustration",
+    "labels"
+  ],
+  "narration_topics": [
+    "what_is_swarm",
+    "satellite_structure",
+    "orbit_motion",
+    "planet_light",
+    "scientific_limits"
+  ],
+  "visual_requirements": {
+    "must_include_scale_reference": true,
+    "must_have_three_inspectable_parts": true,
+    "show_satellites_not_solid_shell": true,
+    "bloom_must_not_hide_geometry": true,
+    "require_visible_parallax": true,
+    "three_review_views": [
+      "system_reveal",
+      "scale_proof",
+      "collector_inspect"
+    ]
+  },
+  "out_of_scope": [
+    "placement",
+    "missions",
+    "materials",
+    "scoring",
+    "economy",
+    "engineering_optimizer",
+    "N_body_simulation"
+  ],
+  "development_gates": [
+    "G0_controls",
+    "G1_swarm_and_establishing",
+    "G2_Tripo_Blender_hero_asset",
+    "G3_narration_and_overlays",
+    "G4_art_and_performance_review"
+  ],
+  "asset_manifest": "C01_asset_manifest.json",
+  "asset_delivery_policy": {
+    "source_pipeline": "tripo_blender",
+    "hi_res_inspection": "required",
+    "level_of_detail": [
+      "runtime_lod0",
+      "runtime_lod1",
+      "runtime_lod2_instanced"
+    ],
+    "preserve_source_blend": true,
+    "distance_swarm_source": "three_configuration_simplified_instances",
+    "sun": "nasa_sdo_observation_snapshot_shader",
+    "no_unoptimized_source_instancing": true,
+    "asset_status": "ready"
+  },
+  "hotspots": [
+    {
+      "id": "sun",
+      "name": "恒星系统",
+      "role": "能源源头",
+      "explanation": "太阳通过核心核聚变释放能量。外围是量产采能卫星，双翼、长翼、四翼是同系列概念配置，用来收集恒星辐射。太阳使用 NASA/SDO 2026-09-21 固定观测快照：使用 AIA 171 Å 日冕伪彩。单侧快照投影始终朝向观察者，不提供真实背面或经纬变化；不是实时数据或全表面测量。天文空间和工程局部采用分层展示比例。",
+      "parent": null,
+      "level": "system",
+      "science": "S1 · 恒星观测；S2 · 戴森群工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "NASA/SDO · 观测数据与谱段",
+          "url": "https://sdo.gsfc.nasa.gov/data/"
+        },
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        },
+        {
+          "title": "NASA · 光球、粒状结构与临边暗化",
+          "url": "https://solarscience.msfc.nasa.gov/surface.shtml"
+        }
+      ]
+    },
+    {
+      "id": "orbit_family_north",
+      "name": "北倾轨道族",
+      "role": "离散轨道分布",
+      "explanation": "轨道曲线表示一组具有相近倾角的独立设施，不是实体轨道或刚性环。",
+      "parent": "sun",
+      "level": "group",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "orbit_family_south",
+      "name": "南倾轨道族",
+      "role": "离散轨道分布",
+      "explanation": "另一组倾角用于展示纵深。真实大规模群体还需要碰撞规避、维护和长期轨道管理。",
+      "parent": "sun",
+      "level": "group",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "orbit_family_mid",
+      "name": "中层轨道族",
+      "role": "离散轨道分布",
+      "explanation": "不同轨道层共享恒星能源，但不构成实体球壳。本演示不求解多体动力学。",
+      "parent": "sun",
+      "level": "group",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "collector_hero",
+      "name": "代表采能卫星",
+      "role": "分件观察",
+      "explanation": "展开采能面、桁架、散热器和姿态模块。结构是概念化设计，不代表已验证的工程方案。",
+      "parent": "orbit_family_mid",
+      "level": "entity",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "collector_north_001",
+      "name": "北倾采能卫星 · 001",
+      "role": "独立设施",
+      "explanation": "此实例用于观察轨道运动与群体尺度。仅代表卫星提供完整近景部件。",
+      "parent": "orbit_family_north",
+      "level": "entity",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "collector_south_001",
+      "name": "南倾采能卫星 · 001",
+      "role": "独立设施",
+      "explanation": "设施沿独立轨道运动。运动速度被压缩为教学节奏，并非真实周期。",
+      "parent": "orbit_family_south",
+      "level": "entity",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "collector_mid_001",
+      "name": "中层采能卫星 · 001",
+      "role": "独立设施",
+      "explanation": "从群体中选择一个实例，观察它相对恒星及其他轨道族的位置。",
+      "parent": "orbit_family_mid",
+      "level": "entity",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "collector_surface",
+      "name": "采能面",
+      "role": "截获辐射",
+      "explanation": "面向恒星的采能面截获部分入射辐射。能量线只标示路径，不代表实际转换效率或输电技术。",
+      "parent": "collector_hero",
+      "level": "component",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "support_truss",
+      "name": "承力桁架",
+      "role": "支撑结构",
+      "explanation": "桁架连接展开面与主模块。其材料、载荷、尺寸及稳定性尚未开展工程计算。",
+      "parent": "collector_hero",
+      "level": "component",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "radiator",
+      "name": "散热器",
+      "role": "排出废热",
+      "explanation": "转换和运行产生的废热必须向空间排出。红色示意用于识别散热位置，不表示实际温度或发光颜色。",
+      "parent": "collector_hero",
+      "level": "component",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    },
+    {
+      "id": "attitude_module",
+      "name": "姿态模块",
+      "role": "定向与控制",
+      "explanation": "模块示意定向和姿态管理需求。推力、燃料与控制策略尚未验证。",
+      "parent": "collector_hero",
+      "level": "component",
+      "science": "S2 · 工程外推待核验；画面使用教学比例",
+      "links": [
+        {
+          "title": "Dyson (1960), Science · 红外辐射搜索",
+          "url": "https://doi.org/10.1126/science.131.3414.1667"
+        },
+        {
+          "title": "NASA · Sun facts",
+          "url": "https://science.nasa.gov/sun/facts/"
+        }
+      ]
+    }
+  ],
+  "narration": [
+    {
+      "id": "what_is_swarm",
+      "title": "01 / 戴森群是什么",
+      "text": "戴森群由大量彼此独立的绕星设施构成。1960 年 Dyson 提出了搜索人工恒星红外辐射的设想；当前结构采用概念化的离散群体布局，没有已建成的戴森群证据。",
+      "focusId": "sun",
+      "overlays": [
+        "orbits"
+      ]
+    },
+    {
+      "id": "satellite_structure",
+      "title": "02 / 看懂一颗卫星",
+      "text": "聚焦代表卫星，分别选择采能面、桁架、散热器和姿态模块。维护参照物帮助理解视觉尺度；所有局部尺寸均为示意，隔离和爆炸视图用于观察连接关系。",
+      "focusId": "collector_hero",
+      "overlays": [
+        "energy",
+        "heat",
+        "labels"
+      ]
+    },
+    {
+      "id": "orbit_motion",
+      "title": "03 / 独立轨道运动",
+      "text": "每颗卫星沿自己的轨道移动。暂停或单步观察群体变化。演示使用固定轨道和压缩时间，不是经过碰撞验证的部署方案，也不进行多体引力计算。",
+      "focusId": "orbit_family_north",
+      "overlays": [
+        "orbits"
+      ]
+    },
+    {
+      "id": "planet_light",
+      "title": "04 / 行星的视线",
+      "text": "行星视线图层展示观察方向以及设施可能经过视线的位置。它不计算遮挡率、行星气候或实际光照变化；采能和废热图层同样只是路径示意。",
+      "focusId": "sun",
+      "overlays": [
+        "light",
+        "energy"
+      ]
+    },
+    {
+      "id": "scientific_limits",
+      "title": "05 / 科学与外推",
+      "text": "恒星核聚变与向外辐射有观测基础；巨型采能设施的制造、轨道管理和散热体系仍是工程外推。S2 标签保留为待核验分类。此演示不提供虚构的精确尺寸、效率或成本。",
+      "focusId": "radiator",
+      "overlays": [
+        "heat"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dyson (1960), Science · 红外辐射搜索",
+      "url": "https://doi.org/10.1126/science.131.3414.1667"
+    },
+    {
+      "title": "NASA · Sun facts",
+      "url": "https://science.nasa.gov/sun/facts/"
+    }
+  ],
+  "source_review": {
+    "reviewed_on": "2026-10-09",
+    "scope": "C01 reference identities and NASA stellar basics verified; engineering design remains unverified",
+    "classification": "S2 pending review"
+  }
+}

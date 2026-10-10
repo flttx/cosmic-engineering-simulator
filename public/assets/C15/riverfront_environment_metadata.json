@@ -1,0 +1,328 @@
+{
+  "asset": "C15 continuous riverfront environment",
+  "sourceProject": "assets/source/blender/C15/riverfront_environment/riverfront_master.blend",
+  "script": "scripts/blender_c15_riverfront.py",
+  "runtimeFile": "public/assets/C15/riverfront_environment.glb",
+  "coordinates": {
+    "runtime": "Y-up, cylinder axis Z, bottom belt theta=-pi/2",
+    "renderUnitMeters": 100,
+    "radiusRenderUnits": 40,
+    "lengthRenderUnits": 240,
+    "waterRadius": 39.47,
+    "groundDatumRadius": 39.48,
+    "scientificBoundary": "Physical scale is a conceptual engineering design assumption, not built-habitat evidence."
+  },
+  "anchors": {
+    "pavilion": [
+      -1.28,
+      -39.38,
+      -40
+    ],
+    "promenade": [
+      -0.5125755621703272,
+      -39.42666821192308,
+      -40
+    ],
+    "cameraStart": [
+      -0.32136871250690663,
+      -39.40368951190512,
+      -39.15
+    ],
+    "cameraTarget": [
+      5,
+      -34.2,
+      -49
+    ],
+    "cameraUp": [
+      0,
+      1,
+      0
+    ],
+    "riverHeroCenter": [
+      0.06,
+      -39.47,
+      -40
+    ],
+    "nearBridge": [
+      -0.5847312918019779,
+      -39.38,
+      -43
+    ],
+    "dockCenter": [
+      -0.5418322780686943,
+      -39.445,
+      -41.1
+    ],
+    "boatMooring": [
+      -0.39683227806869426,
+      -39.472,
+      -41.1
+    ],
+    "boatYaw": 1.5707963267948966,
+    "bench": {
+      "s": -0.38697956467037614,
+      "z": -39.22,
+      "radius": 39.4295,
+      "yaw": 1.5707963267948966
+    },
+    "plantingBeds": [
+      {
+        "s": -1.7543997888990488,
+        "z": -47.0,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.7305511293394884,
+        "z": -46.56,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.6988291196394842,
+        "z": -46.12,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.6592737600963663,
+        "z": -45.68,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.612012269906142,
+        "z": -45.24,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.5572593236820436,
+        "z": -44.8,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.4953160937191814,
+        "z": -44.36,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.4265680913521543,
+        "z": -43.92,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.3514818203804295,
+        "z": -43.48,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.2706002752307237,
+        "z": -43.04,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.1845373359120674,
+        "z": -42.6,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -1.0939711305247752,
+        "z": -42.16,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -0.9996364537455054,
+        "z": -41.72,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -0.9023163459809392,
+        "z": -41.28,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -0.8028329524412516,
+        "z": -40.84,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      },
+      {
+        "s": -0.4005219703631234,
+        "z": -39.08,
+        "radius": 39.421,
+        "heightMeters": 0.8,
+        "widthMeters": 4.4,
+        "lengthMeters": 12
+      }
+    ]
+  },
+  "dimensionsMeters": {
+    "heroRiverWidth": 62,
+    "walkwayWidth": 12,
+    "bridgeDeckWidth": 10,
+    "railingHeight": 1.1,
+    "railingTubeDiameter": 0.04,
+    "railingPostSpacing": 2,
+    "cameraHeightAbovePromenade": 2.5,
+    "promenadeHeightAboveWater": 4,
+    "pavilionPlazaWidth": 130,
+    "pavilionPlazaLength": 145,
+    "accessStairRise": 0.16428571428571428,
+    "accessStairTread": 0.3,
+    "planterHeight": 1.0,
+    "dockLength": 18,
+    "dockReachIntoWater": 8,
+    "streetLightHeight": 3.2,
+    "cascadeDrop": 22.165522895363665
+  },
+  "placementFormula": {
+    "riverCenter": ".06+.40*sin((z+40)*.055)+.20*sin((z+40)*.19)+.85*sin((z+40)*.20)*exp(-((z+40)/22)^2)",
+    "riverWidth": ".62+.28*(1-cos((z+40)*.115))",
+    "promenadeCenter": "riverCenter(z)-riverWidth(z)/2-.27",
+    "terrainHeightFunction": "scripts/blender_c15_riverfront.py:terrain_height(s,z)",
+    "surface": "theta=-pi/2+belt*2pi/3+s/40; radius=39.48-terrain_height(s,z); position=[cos(theta)*radius,sin(theta)*radius,z]"
+  },
+  "textureSources": [
+    {
+      "asset": "aerial_grass_rock",
+      "page": "https://polyhaven.com/a/aerial_grass_rock",
+      "license": "CC0",
+      "resolution": 2048,
+      "physicalWidthMeters": 15,
+      "maps": [
+        "Diffuse",
+        "nor_gl",
+        "Rough"
+      ],
+      "checksums": "aerial_grass_rock_files.json API MD5 matched all downloaded source maps"
+    },
+    {
+      "asset": "concrete_floor",
+      "page": "https://polyhaven.com/a/concrete_floor",
+      "license": "CC0",
+      "resolution": 2048,
+      "physicalWidthMeters": 2.1,
+      "maps": [
+        "Diffuse",
+        "nor_gl",
+        "Rough"
+      ],
+      "checksums": "concrete_floor_files.json API MD5 matched all downloaded source maps"
+    }
+  ],
+  "qa": {
+    "triangles": 228370,
+    "meshCount": 39,
+    "materialCount": 8,
+    "drawCallPrimitives": 53,
+    "missingUV": 0,
+    "nonFiniteVertices": 0,
+    "bytes": 33368324,
+    "checks": [
+      "river at z=-40 is 62m wide",
+      "horizontal pavilion footing Y=-39.38 with terrain datum Y=-39.41",
+      "18 actual terrain BVH rays confirm no grass polygons across water channel",
+      "7 actual mesh BVH rays confirm promenade is above ground including new 2.5m camera/bench/dock points",
+      "continuous three land belts and winding waterways",
+      "geometric near bridge piers/arch/deck/railing/graded approaches",
+      "6 photo PBR source maps verified against publisher MD5; maps packed into source and GLB"
+    ],
+    "previewStatus": "two actual geometry/material Cycles renders generated; visual review required",
+    "previews": [
+      "assets/source/blender/C15/riverfront_environment/review_riverfront_walkway.png",
+      "assets/source/blender/C15/riverfront_environment/review_riverfront_bridge.png"
+    ]
+  },
+  "nodeNames": [
+    "terrain_0",
+    "river_0",
+    "embankment_0",
+    "walkway_0",
+    "public_streets_0",
+    "terrain_edge_cliff_0",
+    "bridge_0",
+    "terrain_1",
+    "river_1",
+    "embankment_1",
+    "walkway_1",
+    "public_streets_1",
+    "terrain_edge_cliff_1",
+    "bridge_1",
+    "terrain_2",
+    "river_2",
+    "embankment_2",
+    "walkway_2",
+    "public_streets_2",
+    "terrain_edge_cliff_2",
+    "bridge_2",
+    "walkway_hero_plaza",
+    "walkway_hero_rails",
+    "walkway_hero_lights",
+    "walkway_hero_joints",
+    "public_planting_beds",
+    "public_lighting",
+    "dock_hero",
+    "cascade_water_0",
+    "rocks_hero",
+    "rocks_0",
+    "rocks_1",
+    "rocks_2",
+    "glass_segments_0",
+    "window_frame_0",
+    "glass_segments_1",
+    "window_frame_1",
+    "glass_segments_2",
+    "window_frame_2"
+  ],
+  "pipeline": [
+    "Blender exact curved terrain and engineering structure",
+    "editable packed PBR sources",
+    "Y-up GLB export"
+  ],
+  "notes": [
+    "Formal Tripo trees and architecture are separate renderer assets, not environment placeholders.",
+    "Disable old ecology ground/water/bank/road/agriculture and broad interior shell window panels when mounting this environment.",
+    "Window frame and glass are separate semantic nodes for lighting and picking.",
+    "Freshwater surface follows cylindrical equipotential at fixed radial distance; reflections require renderer lighting/environment."
+  ]
+}
